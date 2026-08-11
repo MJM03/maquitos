@@ -1,154 +1,105 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-<meta name="theme-color" content="#0b1020" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#08101f">
 <title>Maquitos — Simulador de Importación China → Perú</title>
 <style>
-:root{--bg:#08101f;--panel:#101a2d;--panel2:#15223a;--text:#f5f7fb;--muted:#9eb0c9;--line:#263956;--accent:#58d6a9;--accent2:#6aa9ff;--warn:#ffca67;--bad:#ff7474;--good:#5ce0a2;--shadow:0 18px 55px rgba(0,0,0,.25)}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 10% -10%,#17345a 0,transparent 35%),var(--bg);color:var(--text)}button,input,select{font:inherit}.wrap{max-width:1180px;margin:auto;padding:20px}.hero{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin:8px 0 20px}.brand{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center;color:#06101b;font-weight:900;font-size:21px;box-shadow:var(--shadow)}h1{font-size:clamp(26px,4vw,42px);margin:0;letter-spacing:-.035em}.subtitle{color:var(--muted);max-width:760px;margin:8px 0 0;line-height:1.55}.pill{padding:8px 12px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:13px;white-space:nowrap}.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}.card{background:linear-gradient(180deg,rgba(21,34,58,.96),rgba(13,23,41,.96));border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow)}.card h2{margin:0 0 6px;font-size:19px}.small{font-size:12px;color:var(--muted);line-height:1.5}.section{margin-top:18px}.section-title{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#b8c8dc;margin-bottom:10px;font-weight:800}.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;color:#c3d1e3}.field input,.field select{width:100%;border:1px solid var(--line);background:#0c1527;color:var(--text);border-radius:12px;padding:11px 12px;outline:none}.field input:focus,.field select:focus{border-color:var(--accent2);box-shadow:0 0 0 3px rgba(106,169,255,.12)}.hint{font-size:11px;color:#8296b1}.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}.btn{border:0;border-radius:12px;padding:10px 13px;font-weight:800;cursor:pointer;background:var(--accent);color:#062217}.btn.secondary{background:#20314e;color:#e8eef7;border:1px solid #345071}.btn.ghost{background:transparent;color:#c9d6e7;border:1px solid var(--line)}.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.kpi{border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(8,16,31,.48)}.kpi .label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}.kpi .value{font-size:23px;font-weight:900;margin-top:4px;letter-spacing:-.025em}.kpi .sub{font-size:11px;color:var(--muted);margin-top:3px}.verdict{border-radius:16px;padding:14px;margin-bottom:12px;border:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px}.verdict strong{font-size:18px}.dot{width:14px;height:14px;border-radius:50%;background:var(--warn);box-shadow:0 0 0 6px rgba(255,202,103,.12)}.breakdown{display:grid;gap:8px;margin-top:12px}.row{display:grid;grid-template-columns:1fr auto;gap:10px;padding:9px 0;border-bottom:1px dashed rgba(158,176,201,.18);font-size:13px}.row:last-child{border-bottom:0}.row span:first-child{color:#c8d5e6}.row b{font-variant-numeric:tabular-nums}.bar{height:8px;background:#0b1425;border-radius:999px;overflow:hidden;margin-top:4px}.bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent2),var(--accent));border-radius:999px}.scenario-table{width:100%;border-collapse:collapse;font-size:12px;margin-top:8px}.scenario-table th,.scenario-table td{padding:9px 7px;border-bottom:1px solid var(--line);text-align:right}.scenario-table th:first-child,.scenario-table td:first-child{text-align:left}.scenario-table th{color:#9eb0c9;font-weight:700}.good{color:var(--good)}.warn{color:var(--warn)}.bad{color:var(--bad)}.note{border:1px solid #374d6d;background:#0c182b;border-radius:14px;padding:12px;color:#bfd0e5;font-size:12px;line-height:1.55}.saved{display:grid;gap:8px}.saved-item{display:flex;justify-content:space-between;align-items:center;gap:8px;border:1px solid var(--line);border-radius:12px;padding:10px;background:#0b1526}.saved-item button{border:0;background:#243957;color:white;border-radius:9px;padding:7px 9px;cursor:pointer}.footer{color:#8093ad;font-size:11px;line-height:1.6;margin:18px 0 30px}.links a{color:#86baff;text-decoration:none}.hidden{display:none!important}@media(max-width:900px){.grid{grid-template-columns:1fr}.hero{flex-direction:column}.pill{white-space:normal}.wrap{padding:14px}}@media(max-width:560px){.fields,.kpis{grid-template-columns:1fr}.field.full{grid-column:auto}.kpi .value{font-size:21px}.card{padding:14px;border-radius:17px}}
+:root{--bg:#08101f;--panel:#101a2d;--panel2:#15223a;--text:#f5f7fb;--muted:#9eb0c9;--line:#263956;--accent:#58d6a9;--blue:#6aa9ff;--yellow:#ffca67;--bad:#ff7474;--good:#5ce0a2}*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 10% -10%,#17345a 0,transparent 35%),var(--bg);color:var(--text)}.wrap{max-width:1180px;margin:auto;padding:18px}.hero{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin:8px 0 18px}.brand{display:flex;gap:12px;align-items:center}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,var(--accent),var(--blue));display:grid;place-items:center;color:#05101a;font-size:22px;font-weight:900}h1{margin:0;font-size:clamp(28px,5vw,42px)}.small{font-size:12px;color:var(--muted);line-height:1.5}.subtitle{color:var(--muted);max-width:760px;line-height:1.55}.grid{display:grid;grid-template-columns:1.06fr .94fr;gap:18px}.card{background:linear-gradient(180deg,rgba(21,34,58,.97),rgba(13,23,41,.97));border:1px solid var(--line);border-radius:20px;padding:18px}.legend{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}.legend-item{border:1px solid var(--line);border-radius:14px;padding:11px;font-size:12px;line-height:1.45}.legend-item strong{display:block;margin-bottom:3px}.userLegend{background:rgba(106,169,255,.08)}.checkLegend{background:rgba(255,202,103,.08)}.autoLegend{background:rgba(92,224,162,.08)}.progress{border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:14px;background:#0b1527}.progress-head{display:flex;justify-content:space-between;gap:10px;font-size:12px}.progressbar{height:8px;background:#07101f;border-radius:999px;overflow:hidden;margin-top:8px}.progressbar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--accent));width:0}.section{margin-top:18px}.section-title{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#c2d0e0;margin-bottom:10px;font-weight:800}.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field{display:flex;flex-direction:column;gap:6px;border-radius:14px;padding:10px;border:1px solid transparent}.field.full{grid-column:1/-1}.field.user{background:rgba(106,169,255,.07);border-color:rgba(106,169,255,.25)}.field.check{background:rgba(255,202,103,.07);border-color:rgba(255,202,103,.25)}.field label{font-size:12px;color:#d3deeb}.tag{font-size:10px;font-weight:800;border-radius:999px;padding:3px 7px;margin-left:5px;white-space:nowrap}.tag.user{background:rgba(106,169,255,.18);color:#bcd6ff}.tag.check{background:rgba(255,202,103,.17);color:#ffe1a0}.tag.auto{background:rgba(92,224,162,.16);color:#b8f3d9}.field input,.field select{width:100%;border:1px solid var(--line);background:#0b1425;color:var(--text);border-radius:11px;padding:10px 11px;outline:none;font:inherit}.field.user input:focus,.field.user select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(106,169,255,.12)}.field.check input:focus,.field.check select:focus{border-color:var(--yellow);box-shadow:0 0 0 3px rgba(255,202,103,.10)}.hint{font-size:11px;color:#8296b1}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.btn{border:0;border-radius:11px;padding:10px 13px;font-weight:800;cursor:pointer;background:var(--accent);color:#062217}.btn.secondary{background:#223552;color:#eaf0f7;border:1px solid #355171}.btn.ghost{background:transparent;border:1px solid var(--line);color:#d4deea}.verdict{border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px;display:flex;justify-content:space-between;gap:12px;align-items:center}.verdict strong{font-size:19px}.dot{width:14px;height:14px;border-radius:50%;background:var(--yellow)}.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.kpi{border:1px solid rgba(92,224,162,.25);background:rgba(92,224,162,.06);border-radius:15px;padding:13px}.kpi .label{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#a9bcd3}.kpi .value{font-size:22px;font-weight:900;margin-top:5px}.kpi .sub{font-size:11px;color:var(--muted);margin-top:3px}.row{display:grid;grid-template-columns:1fr auto;gap:10px;padding:9px 0;border-bottom:1px dashed rgba(158,176,201,.18);font-size:13px}.row:last-child{border-bottom:0}.good{color:var(--good)}.warn{color:var(--yellow)}.bad{color:var(--bad)}.note{border:1px solid #384f70;border-radius:14px;padding:12px;background:#0c182b;color:#c3d2e5;font-size:12px;line-height:1.55}.saved{display:grid;gap:8px}.saved-item{display:flex;justify-content:space-between;gap:8px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px;background:#0b1526}.saved-item button{border:0;background:#243957;color:white;border-radius:8px;padding:7px 9px}.footer{font-size:11px;color:#8093ad;line-height:1.6;margin:18px 0 30px}@media(max-width:900px){.grid{grid-template-columns:1fr}.hero{flex-direction:column}}@media(max-width:560px){.fields,.kpis,.legend{grid-template-columns:1fr}.field.full{grid-column:auto}.wrap{padding:13px}.card{padding:14px;border-radius:17px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header class="hero">
-    <div>
-      <div class="brand"><div class="logo">M</div><div><h1>Maquitos</h1><div class="small">Import Profit Lab · China → Perú</div></div></div>
-      <p class="subtitle">Proyecta el costo real de traer un producto, separa impuestos y desembolso, calcula ROI, margen, punto de equilibrio y compara escenarios antes de comprar.</p>
-    </div>
-    <div class="pill">Datos quedan en tu navegador · Sin registro</div>
-  </header>
-
-  <main class="grid">
-    <section class="card">
-      <h2>1. Datos de la importación</h2><div class="small">Modifica cualquier tasa. Los aranceles reales dependen de la subpartida nacional y del régimen aplicable.</div>
-
-      <div class="section"><div class="section-title">Producto</div><div class="fields">
-        <div class="field full"><label>Nombre del producto</label><input id="product" value="Producto ejemplo" /></div>
-        <div class="field"><label>Cantidad (unidades)</label><input id="qty" type="number" min="1" step="1" value="100" /></div>
-        <div class="field"><label>Costo unitario FOB (US$)</label><input id="unitFob" type="number" min="0" step="0.01" value="2.50" /></div>
-        <div class="field"><label>Precio de venta unitario (S/)</label><input id="salePrice" type="number" min="0" step="0.01" value="18" /></div>
-        <div class="field"><label>Precio local de referencia (S/)</label><input id="marketPrice" type="number" min="0" step="0.01" value="20" /></div>
-        <div class="field full"><label>Link / referencia del proveedor</label><input id="supplier" placeholder="Alibaba, 1688, AliExpress..." /></div>
-        <div class="field"><label>Subpartida / HS code</label><input id="hs" placeholder="Ej. 8517..." /></div>
-        <div class="field"><label>Merma / unidades no vendibles (%)</label><input id="lossPct" type="number" min="0" max="100" step="0.1" value="2" /></div>
-      </div></div>
-
-      <div class="section"><div class="section-title">Logística y moneda</div><div class="fields">
-        <div class="field"><label>Flete internacional (US$)</label><input id="freight" type="number" min="0" step="0.01" value="90" /></div>
-        <div class="field"><label>Seguro (US$)</label><input id="insurance" type="number" min="0" step="0.01" value="5" /></div>
-        <div class="field"><label>Otros costos en origen (US$)</label><input id="originOther" type="number" min="0" step="0.01" value="15" /></div>
-        <div class="field"><label>Tipo de cambio S/ por US$</label><input id="fx" type="number" min="0.1" step="0.001" value="3.75" /></div>
-        <div class="field"><label>Régimen</label><select id="regime"><option value="general">Importación general</option><option value="postal">Importa Fácil / postal</option></select></div>
-        <div class="field"><label>Ad valorem (%)</label><input id="dutyPct" type="number" min="0" step="0.1" value="6" /><div class="hint">General: suele variar por subpartida. Postal US$200–2,000 usa partida única 4% cuando aplica.</div></div>
-      </div></div>
-
-      <div class="section"><div class="section-title">Tributos y gastos en Perú</div><div class="fields">
-        <div class="field"><label>IGV + IPM (%)</label><input id="vatPct" type="number" min="0" step="0.1" value="18" /></div>
-        <div class="field"><label>ISC (%)</label><input id="iscPct" type="number" min="0" step="0.1" value="0" /></div>
-        <div class="field"><label>Percepción IGV (%)</label><input id="perceptionPct" type="number" min="0" step="0.1" value="3.5" /></div>
-        <div class="field"><label>Antidumping / otros derechos (S/)</label><input id="antiDump" type="number" min="0" step="0.01" value="0" /></div>
-        <div class="field"><label>Agente / despacho aduanero (S/)</label><input id="broker" type="number" min="0" step="0.01" value="120" /></div>
-        <div class="field"><label>Almacenaje / handling (S/)</label><input id="storage" type="number" min="0" step="0.01" value="60" /></div>
-        <div class="field"><label>Transporte local (S/)</label><input id="localShip" type="number" min="0" step="0.01" value="45" /></div>
-        <div class="field"><label>Otros gastos fijos (S/)</label><input id="otherLocal" type="number" min="0" step="0.01" value="25" /></div>
-      </div></div>
-
-      <div class="section"><div class="section-title">Venta</div><div class="fields">
-        <div class="field"><label>Comisión marketplace (%)</label><input id="marketFeePct" type="number" min="0" max="100" step="0.1" value="0" /></div>
-        <div class="field"><label>Pasarela / cobro (%)</label><input id="paymentFeePct" type="number" min="0" max="100" step="0.1" value="0" /></div>
-        <div class="field"><label>Marketing por unidad vendida (S/)</label><input id="marketingUnit" type="number" min="0" step="0.01" value="0.50" /></div>
-        <div class="field"><label>Objetivo de margen (%)</label><input id="targetMargin" type="number" min="0" max="95" step="1" value="30" /></div>
-      </div></div>
-
-      <div class="actions"><button class="btn" id="saveBtn">Guardar escenario</button><button class="btn secondary" id="copyBtn">Copiar resumen</button><button class="btn ghost" id="exportBtn">Exportar CSV</button><button class="btn ghost" onclick="window.print()">Imprimir / PDF</button><button class="btn ghost" id="resetBtn">Restablecer</button></div>
-    </section>
-
-    <aside>
-      <section class="card">
-        <div id="verdict" class="verdict"><div><div class="small">Diagnóstico</div><strong id="verdictText">Calculando…</strong><div id="verdictReason" class="small"></div></div><div class="dot" id="verdictDot"></div></div>
-        <div class="kpis">
-          <div class="kpi"><div class="label">Costo puesto / unidad</div><div class="value" id="landedUnit">S/ 0.00</div><div class="sub">Sin percepción recuperable</div></div>
-          <div class="kpi"><div class="label">Utilidad proyectada</div><div class="value" id="profit">S/ 0.00</div><div class="sub" id="profitSub">Luego de gastos variables</div></div>
-          <div class="kpi"><div class="label">ROI económico</div><div class="value" id="roi">0%</div><div class="sub">Utilidad / inversión económica</div></div>
-          <div class="kpi"><div class="label">Margen neto</div><div class="value" id="margin">0%</div><div class="sub">Utilidad / ventas brutas</div></div>
-          <div class="kpi"><div class="label">Punto de equilibrio</div><div class="value" id="breakEven">S/ 0.00</div><div class="sub">Precio mínimo por unidad vendible</div></div>
-          <div class="kpi"><div class="label">Caja necesaria</div><div class="value" id="cashNeed">S/ 0.00</div><div class="sub">Incluye percepción estimada</div></div>
-        </div>
-
-        <div class="section"><div class="section-title">Desglose del costo</div><div class="breakdown" id="breakdown"></div></div>
-        <div class="section"><div class="section-title">Composición</div><div id="bars"></div></div>
-      </section>
-
-      <section class="card section">
-        <h2>2. Precio objetivo</h2><div class="small">Precio estimado para alcanzar distintos márgenes, considerando comisión, pasarela, marketing y merma.</div>
-        <div class="breakdown" id="priceTargets"></div>
-      </section>
-
-      <section class="card section">
-        <h2>3. Sensibilidad</h2><div class="small">Mide qué pasa si se mueve el precio, el flete o el tipo de cambio.</div>
-        <div style="overflow:auto"><table class="scenario-table"><thead><tr><th>Escenario</th><th>Utilidad</th><th>ROI</th><th>Margen</th></tr></thead><tbody id="sensitivity"></tbody></table></div>
-      </section>
-
-      <section class="card section">
-        <h2>4. Alertas antes de comprar</h2>
-        <div id="alerts" class="note"></div>
-      </section>
-
-      <section class="card section">
-        <h2>Escenarios guardados</h2><div class="small">Úsalos para comparar proveedores, cantidades o productos.</div><div class="saved section" id="saved"></div>
-      </section>
-
-      <section class="card section links">
-        <h2>Fuentes útiles</h2>
-        <div class="small">Verifica siempre la subpartida, restricciones y tratamiento tributario antes de pagar.</div>
-        <div class="breakdown">
-          <div class="row"><span>SUNAT — Importación</span><b><a href="https://www.sunat.gob.pe/orientacionaduanera/importacion/" target="_blank" rel="noreferrer">Abrir</a></b></div>
-          <div class="row"><span>SUNAT — Importa Fácil</span><b><a href="https://emprender.sunat.gob.pe/principales-impuestos/otros/importa-facil" target="_blank" rel="noreferrer">Abrir</a></b></div>
-          <div class="row"><span>SUNAT — Tributos de importación</span><b><a href="https://www.sunat.gob.pe/orientacionaduanera/despsimpimportacion/pagos.html" target="_blank" rel="noreferrer">Abrir</a></b></div>
-        </div>
-      </section>
-    </aside>
-  </main>
-
-  <footer class="footer">Maquitos es una herramienta de proyección, no una liquidación aduanera oficial. El resultado puede variar por subpartida, valoración aduanera, TLC/origen, mercancías restringidas, antidumping, ISC, percepción aplicable, canal de control, operador logístico y otros conceptos. Confirma el cálculo final con SUNAT y tu operador de comercio exterior antes de comprometer capital.</footer>
+<header class="hero"><div><div class="brand"><div class="logo">M</div><div><h1>Maquitos</h1><div class="small">Import Profit Lab · China → Perú</div></div></div><p class="subtitle">Calcula costos, impuestos, rentabilidad, ROI, margen y punto de equilibrio antes de importar.</p></div><div class="small">Tus datos se guardan solo en tu navegador.</div></header>
+<main class="grid">
+<section class="card">
+<h2>1. Datos de la importación</h2><div class="small">Ahora cada campo te indica si debes rellenarlo tú, si conviene confirmarlo o si se calcula automáticamente.</div>
+<div class="legend"><div class="legend-item userLegend"><strong>✍️ TÚ RELLENAS</strong>Datos de proveedor, logística, venta y costos reales.</div><div class="legend-item checkLegend"><strong>⚠️ REVISAR / CONFIRMAR</strong>Datos tributarios o aduaneros que dependen del producto.</div><div class="legend-item autoLegend"><strong>⚙️ AUTOMÁTICO</strong>Resultados calculados por Maquitos.</div></div>
+<div class="progress"><div class="progress-head"><b id="progressText">Datos mínimos: 0/6</b><span id="progressHint">Completa lo esencial para un análisis confiable</span></div><div class="progressbar"><i id="progressBar"></i></div></div>
+<div class="section"><div class="section-title">Producto</div><div class="fields">
+<div class="field user full"><label>Nombre del producto <span class="tag user">✍️ Ingresar</span></label><input id="product" value="Producto ejemplo"></div>
+<div class="field user"><label>Cantidad (unidades) <span class="tag user">✍️ Ingresar</span></label><input id="qty" type="number" min="1" value="100"></div>
+<div class="field user"><label>Costo unitario FOB (US$) <span class="tag user">✍️ Ingresar</span></label><input id="unitFob" type="number" min="0" step="0.01" value="2.50"></div>
+<div class="field user"><label>Precio de venta unitario (S/) <span class="tag user">✍️ Ingresar</span></label><input id="salePrice" type="number" min="0" step="0.01" value="18"></div>
+<div class="field user"><label>Precio local de referencia (S/) <span class="tag user">✍️ Ingresar</span></label><input id="marketPrice" type="number" min="0" step="0.01" value="20"></div>
+<div class="field user full"><label>Link / referencia del proveedor <span class="tag user">✍️ Ingresar</span></label><input id="supplier" placeholder="Alibaba, 1688, AliExpress..."></div>
+<div class="field check"><label>Subpartida / HS code <span class="tag check">⚠️ Confirmar</span></label><input id="hs" placeholder="Ej. 8517..."></div>
+<div class="field user"><label>Merma (%) <span class="tag user">✍️ Ingresar</span></label><input id="lossPct" type="number" min="0" max="100" step="0.1" value="2"></div>
+</div></div>
+<div class="section"><div class="section-title">Logística y moneda</div><div class="fields">
+<div class="field user"><label>Flete internacional (US$) <span class="tag user">✍️ Ingresar</span></label><input id="freight" type="number" min="0" step="0.01" value="90"></div>
+<div class="field user"><label>Seguro (US$) <span class="tag user">✍️ Ingresar</span></label><input id="insurance" type="number" min="0" step="0.01" value="5"></div>
+<div class="field user"><label>Otros costos en origen (US$) <span class="tag user">✍️ Ingresar</span></label><input id="originOther" type="number" min="0" step="0.01" value="15"></div>
+<div class="field user"><label>Tipo de cambio S/ por US$ <span class="tag user">✍️ Ingresar</span></label><input id="fx" type="number" min="0.1" step="0.001" value="3.75"></div>
+<div class="field check"><label>Régimen <span class="tag check">⚠️ Confirmar</span></label><select id="regime"><option value="general">Importación general</option><option value="postal">Importa Fácil / postal</option></select></div>
+<div class="field check"><label>Ad valorem (%) <span class="tag check">⚠️ Confirmar</span></label><input id="dutyPct" type="number" min="0" step="0.1" value="6"><div class="hint">Depende de la subpartida y régimen.</div></div>
+</div></div>
+<div class="section"><div class="section-title">Tributos y gastos en Perú</div><div class="fields">
+<div class="field check"><label>IGV + IPM (%) <span class="tag check">⚠️ Confirmar</span></label><input id="vatPct" type="number" min="0" step="0.1" value="18"></div>
+<div class="field check"><label>ISC (%) <span class="tag check">⚠️ Confirmar</span></label><input id="iscPct" type="number" min="0" step="0.1" value="0"></div>
+<div class="field check"><label>Percepción IGV (%) <span class="tag check">⚠️ Confirmar</span></label><input id="perceptionPct" type="number" min="0" step="0.1" value="3.5"></div>
+<div class="field check"><label>Antidumping / otros derechos (S/) <span class="tag check">⚠️ Confirmar</span></label><input id="antiDump" type="number" min="0" step="0.01" value="0"></div>
+<div class="field user"><label>Agente / despacho aduanero (S/) <span class="tag user">✍️ Ingresar</span></label><input id="broker" type="number" min="0" step="0.01" value="120"></div>
+<div class="field user"><label>Almacenaje / handling (S/) <span class="tag user">✍️ Ingresar</span></label><input id="storage" type="number" min="0" step="0.01" value="60"></div>
+<div class="field user"><label>Transporte local (S/) <span class="tag user">✍️ Ingresar</span></label><input id="localShip" type="number" min="0" step="0.01" value="45"></div>
+<div class="field user"><label>Otros gastos fijos (S/) <span class="tag user">✍️ Ingresar</span></label><input id="otherLocal" type="number" min="0" step="0.01" value="25"></div>
+</div></div>
+<div class="section"><div class="section-title">Venta</div><div class="fields">
+<div class="field user"><label>Comisión marketplace (%) <span class="tag user">✍️ Ingresar</span></label><input id="marketFeePct" type="number" min="0" max="100" step="0.1" value="0"></div>
+<div class="field user"><label>Pasarela / cobro (%) <span class="tag user">✍️ Ingresar</span></label><input id="paymentFeePct" type="number" min="0" max="100" step="0.1" value="0"></div>
+<div class="field user"><label>Marketing por unidad (S/) <span class="tag user">✍️ Ingresar</span></label><input id="marketingUnit" type="number" min="0" step="0.01" value="0.50"></div>
+<div class="field user"><label>Objetivo de margen (%) <span class="tag user">✍️ Ingresar</span></label><input id="targetMargin" type="number" min="0" max="95" step="1" value="30"></div>
+</div></div>
+<div class="actions"><button class="btn" id="saveBtn">Guardar escenario</button><button class="btn secondary" id="copyBtn">Copiar resumen</button><button class="btn ghost" id="exportBtn">Exportar CSV</button><button class="btn ghost" onclick="window.print()">Imprimir / PDF</button><button class="btn ghost" id="resetBtn">Restablecer</button></div>
+</section>
+<aside>
+<section class="card"><div class="verdict"><div><div class="small">⚙️ Diagnóstico automático</div><strong id="verdictText">Calculando…</strong><div class="small" id="verdictReason"></div></div><div class="dot" id="verdictDot"></div></div>
+<div class="kpis">
+<div class="kpi"><div class="label">Costo puesto / unidad <span class="tag auto">⚙️ Auto</span></div><div class="value" id="landedUnit">S/ 0.00</div><div class="sub">Costo económico unitario</div></div>
+<div class="kpi"><div class="label">Utilidad proyectada <span class="tag auto">⚙️ Auto</span></div><div class="value" id="profit">S/ 0.00</div><div class="sub">Después de gastos variables</div></div>
+<div class="kpi"><div class="label">ROI económico <span class="tag auto">⚙️ Auto</span></div><div class="value" id="roi">0%</div><div class="sub">Utilidad / inversión económica</div></div>
+<div class="kpi"><div class="label">Margen neto <span class="tag auto">⚙️ Auto</span></div><div class="value" id="margin">0%</div><div class="sub">Utilidad / ventas</div></div>
+<div class="kpi"><div class="label">Punto de equilibrio <span class="tag auto">⚙️ Auto</span></div><div class="value" id="breakEven">S/ 0.00</div><div class="sub">Precio mínimo unitario</div></div>
+<div class="kpi"><div class="label">Caja necesaria <span class="tag auto">⚙️ Auto</span></div><div class="value" id="cashNeed">S/ 0.00</div><div class="sub">Incluye percepción estimada</div></div>
+</div>
+<div class="section"><div class="section-title">Desglose automático</div><div id="breakdown"></div></div>
+</section>
+<section class="card section"><h2>2. Precio objetivo</h2><div class="small">Precios estimados para distintos márgenes.</div><div id="priceTargets"></div></section>
+<section class="card section"><h2>3. Escenarios guardados</h2><div class="saved" id="saved"></div></section>
+<section class="card section"><div class="note"><b>Importante:</b> Maquitos es una herramienta de proyección. Antes de importar confirma la subpartida, restricciones y tributos aplicables.</div></section>
+</aside>
+</main>
+<div class="footer">Maquitos · Simulador financiero para importaciones China → Perú.</div>
 </div>
 <script>
-const $=id=>document.getElementById(id);const ids=['product','qty','unitFob','salePrice','marketPrice','supplier','hs','lossPct','freight','insurance','originOther','fx','regime','dutyPct','vatPct','iscPct','perceptionPct','antiDump','broker','storage','localShip','otherLocal','marketFeePct','paymentFeePct','marketingUnit','targetMargin'];
-const n=id=>Math.max(0,Number($(id).value)||0);const money=v=>'S/ '+v.toLocaleString('es-PE',{minimumFractionDigits:2,maximumFractionDigits:2});const usd=v=>'US$ '+v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});const pct=v=>(Number.isFinite(v)?v:0).toFixed(1)+'%';
-function snapshot(){return Object.fromEntries(ids.map(id=>[id,$(id).value]))}function apply(s){ids.forEach(id=>{if(s[id]!==undefined)$(id).value=s[id]});calc()}
-function compute(over={}){
- const qty=over.qty??Math.max(1,n('qty')),unitFob=over.unitFob??n('unitFob'),salePrice=over.salePrice??n('salePrice'),freight=over.freight??n('freight'),insurance=n('insurance'),originOther=n('originOther'),fx=over.fx??n('fx'),lossPct=n('lossPct'),regime=$('regime').value;
- const fob=qty*unitFob;const customsUSD=fob+freight+insurance;let dutyRate=n('dutyPct')/100;let vatRate=n('vatPct')/100;let postalMessage='';
- if(regime==='postal'){
-   if(fob<=200){dutyRate=0;vatRate=0;postalMessage='Importa Fácil: FOB ≤ US$200; se proyecta 0% de ad valorem e IGV, sujeto a exclusiones y restricciones.'}
-   else if(fob<=2000){dutyRate=.04;vatRate=.18;postalMessage='Importa Fácil: FOB > US$200 y ≤ US$2,000; se proyecta partida única 4% + 18% cuando corresponde.'}
-   else postalMessage='El FOB supera US$2,000: Importa Fácil postal ya no corresponde; revisa despacho de importación aplicable.';
- }
- const customsPEN=customsUSD*fx;const originOtherPEN=originOther*fx;const duty=customsPEN*dutyRate;const iscBase=customsPEN+duty;const isc=iscBase*(n('iscPct')/100);const vatBase=customsPEN+duty+isc;const vat=vatBase*vatRate;const anti=n('antiDump');const perceptionBase=customsPEN+duty+isc+vat+anti;const perception=perceptionBase*(n('perceptionPct')/100);
- const localFixed=n('broker')+n('storage')+n('localShip')+n('otherLocal');const economicInvestment=customsPEN+originOtherPEN+duty+isc+vat+anti+localFixed;const cashNeed=economicInvestment+perception;const sellable=Math.max(.01,qty*(1-lossPct/100));const landedUnit=economicInvestment/sellable;
- const grossSales=sellable*salePrice;const feeRate=(n('marketFeePct')+n('paymentFeePct'))/100;const fees=grossSales*feeRate;const marketing=sellable*n('marketingUnit');const profit=grossSales-fees-marketing-economicInvestment;const roi=economicInvestment?profit/economicInvestment*100:0;const margin=grossSales?profit/grossSales*100:0;const contributionRate=1-feeRate;const breakEven=contributionRate>0?economicInvestment/sellable/contributionRate+n('marketingUnit')/contributionRate:Infinity;
- return{qty,unitFob,salePrice,freight,fx,fob,customsUSD,customsPEN,originOtherPEN,duty,dutyRate,isc,vat,vatRate,anti,perception,localFixed,economicInvestment,cashNeed,sellable,landedUnit,grossSales,fees,marketing,profit,roi,margin,breakEven,postalMessage,feeRate};
+const ids=['product','qty','unitFob','salePrice','marketPrice','supplier','hs','lossPct','freight','insurance','originOther','fx','regime','dutyPct','vatPct','iscPct','perceptionPct','antiDump','broker','storage','localShip','otherLocal','marketFeePct','paymentFeePct','marketingUnit','targetMargin'];
+const $=id=>document.getElementById(id); const n=id=>parseFloat($(id).value)||0; const money=v=>'S/ '+(isFinite(v)?v:0).toLocaleString('es-PE',{minimumFractionDigits:2,maximumFractionDigits:2}); const pct=v=>(isFinite(v)?v:0).toFixed(1)+'%';
+function calc(){
+ const qty=Math.max(1,n('qty')), fob=qty*n('unitFob'), freight=n('freight'), insurance=n('insurance'), origin=n('originOther'), fx=n('fx');
+ const cifUsd=fob+freight+insurance+origin, cif=cifUsd*fx; let dutyPct=n('dutyPct');
+ if($('regime').value==='postal' && cifUsd<=200) dutyPct=0;
+ const duty=cif*dutyPct/100, isc=(cif+duty)*n('iscPct')/100, vat=(cif+duty+isc)*n('vatPct')/100;
+ const perceptionBase=cif+duty+isc+vat; const perception=perceptionBase*n('perceptionPct')/100;
+ const fixedLocal=n('antiDump')+n('broker')+n('storage')+n('localShip')+n('otherLocal');
+ const economicCost=cif+duty+isc+vat+fixedLocal; const cashNeed=economicCost+perception;
+ const sellable=Math.max(1,qty*(1-n('lossPct')/100)); const landedUnit=economicCost/sellable;
+ const sales=sellable*n('salePrice'); const fees=sales*(n('marketFeePct')+n('paymentFeePct'))/100; const marketing=sellable*n('marketingUnit');
+ const profit=sales-economicCost-fees-marketing; const roi=economicCost?profit/economicCost*100:0; const margin=sales?profit/sales*100:0;
+ const varPct=(n('marketFeePct')+n('paymentFeePct'))/100; const breakEven=(landedUnit+n('marketingUnit'))/Math.max(.01,1-varPct);
+ $('landedUnit').textContent=money(landedUnit); $('profit').textContent=money(profit); $('roi').textContent=pct(roi); $('margin').textContent=pct(margin); $('breakEven').textContent=money(breakEven); $('cashNeed').textContent=money(cashNeed);
+ let verdict='NO RENTABLE', reason='La utilidad proyectada es negativa.', color='var(--bad)'; if(profit>0 && roi>=30 && margin>=20){verdict='RENTABLE';reason='Buen margen y retorno proyectado.';color='var(--good)'} else if(profit>0){verdict='REVISAR';reason='Genera utilidad, pero conviene optimizar costos o precio.';color='var(--yellow)'} $('verdictText').textContent=verdict; $('verdictReason').textContent=reason; $('verdictDot').style.background=color;
+ const rows=[['FOB mercadería',fob*fx],['Flete internacional',freight*fx],['Seguro',insurance*fx],['Otros origen',origin*fx],['Ad valorem',duty],['ISC',isc],['IGV + IPM',vat],['Antidumping / otros',n('antiDump')],['Agente / despacho',n('broker')],['Almacenaje',n('storage')],['Transporte local',n('localShip')],['Otros gastos',n('otherLocal')],['Percepción (caja, no costo económico)',perception]];
+ $('breakdown').innerHTML=rows.map(r=>`<div class="row"><span>${r[0]}</span><b>${money(r[1])}</b></div>`).join('');
+ const target=[20,30,40,50,n('targetMargin')].filter((v,i,a)=>v>0&&v<90&&a.indexOf(v)===i).sort((a,b)=>a-b); $('priceTargets').innerHTML=target.map(m=>{const price=(landedUnit+n('marketingUnit'))/Math.max(.01,1-varPct-m/100);return `<div class="row"><span>Margen ${m}%</span><b>${money(price)}</b></div>`}).join('');
+ updateProgress(); window.lastCalc={fob,cifUsd,cif,duty,isc,vat,perception,economicCost,cashNeed,landedUnit,profit,roi,margin,breakEven};
 }
-function targetPrice(m,c){const target=Math.min(.95,m/100);const denom=1-c.feeRate-target;return denom>0?(c.economicInvestment/c.sellable+n('marketingUnit'))/denom:Infinity}
-function calc(){const c=compute();
- $('landedUnit').textContent=money(c.landedUnit);$('profit').textContent=money(c.profit);$('roi').textContent=pct(c.roi);$('margin').textContent=pct(c.margin);$('breakEven').textContent=Number.isFinite(c.breakEven)?money(c.breakEven):'No viable';$('cashNeed').textContent=money(c.cashNeed);
- const market=n('marketPrice');let status='No atractivo',reason='ROI y/o margen insuficientes',cls='bad';if(c.profit>0&&c.roi>=40&&c.margin>=20){status='Muy atractivo';reason='Buen colchón de rentabilidad para absorber variaciones';cls='good'}else if(c.profit>0&&c.roi>=20&&c.margin>=12){status='Rentable';reason='Escenario viable; valida demanda y costos reales';cls='good'}else if(c.profit>0&&c.roi>=10){status='Rentabilidad ajustada';reason='Hay ganancia, pero poco margen para imprevistos';cls='warn'}else if(c.profit>0){status='Ganancia débil';reason='Positivo, pero el retorno puede no compensar el riesgo';cls='warn'}
- $('verdictText').textContent=status;$('verdictText').className=cls;$('verdictReason').textContent=reason;$('verdictDot').style.background=cls==='good'?'var(--good)':cls==='warn'?'var(--warn)':'var(--bad)';
- const rows=[['FOB producto',usd(c.fob)+' · '+money(c.fob*c.fx)],['Flete + seguro',usd(n('freight')+n('insurance'))+' · '+money((n('freight')+n('insurance'))*c.fx)],['Otros costos en origen',money(c.originOtherPEN)],['Ad valorem ('+pct(c.dutyRate*100)+')',money(c.duty)],['ISC',money(c.isc)],['IGV + IPM ('+pct(c.vatRate*100)+')',money(c.vat)],['Antidumping / otros derechos',money(c.anti)],['Gastos locales',money(c.localFixed)],['Percepción IGV (caja, separada)',money(c.perception)],['Inversión económica',money(c.economicInvestment)]];
- $('breakdown').innerHTML=rows.map(r=>`<div class="row"><span>${r[0]}</span><b>${r[1]}</b></div>`).join('');
- const parts=[['Mercancía',c.fob*c.fx],['Logística int.',(n('freight')+n('insurance')+n('originOther'))*c.fx],['Tributos',c.duty+c.isc+c.vat+c.anti],['Gastos Perú',c.localFixed]];const max=Math.max(...parts.map(x=>x[1]),1);$('bars').innerHTML=parts.map(([name,val])=>`<div class="small" style="margin-top:8px;display:flex;justify-content:space-between"><span>${name}</span><b>${money(val)}</b></div><div class="bar"><i style="width:${Math.min(100,val/max*100)}%"></i></div>`).join('');
- const margins=[20,30,40,n('targetMargin')].filter((v,i,a)=>a.indexOf(v)===i).sort((a,b)=>a-b);$('priceTargets').innerHTML=margins.map(m=>`<div class="row"><span>Margen ${m}%</span><b>${Number.isFinite(targetPrice(m,c))?money(targetPrice(m,c)):'No viable'}</b></div>`).join('')+(market?`<div class="row"><span>Precio local de referencia</span><b>${money(market)}</b></div><div class="row"><span>Tu precio vs. mercado</span><b class="${c.salePrice<=market?'good':'warn'}">${pct((c.salePrice/market-1)*100)}</b></div>`:'');
- const sc=[['Precio -10%',compute({salePrice:c.salePrice*.9})],['Base',c],['Precio +10%',compute({salePrice:c.salePrice*1.1})],['Flete +20%',compute({freight:c.freight*1.2})],['TC +5%',compute({fx:c.fx*1.05})]];$('sensitivity').innerHTML=sc.map(([name,x])=>`<tr><td>${name}</td><td class="${x.profit>=0?'good':'bad'}">${money(x.profit)}</td><td>${pct(x.roi)}</td><td>${pct(x.margin)}</td></tr>`).join('');
- const alerts=[];if(c.postalMessage)alerts.push(c.postalMessage);if(!$('hs').value.trim())alerts.push('Falta subpartida/HS: sin ella no puedes validar arancel, restricciones, ISC o medidas antidumping.');if(c.freight/c.fob>.5&&c.fob>0)alerts.push('El flete supera 50% del FOB: revisa consolidación, peso volumétrico o un MOQ mayor.');if(c.roi<20)alerts.push('ROI menor a 20%: cualquier variación de tipo de cambio, flete o ventas puede deteriorar bastante el resultado.');if(c.breakEven>c.salePrice)alerts.push('Tu precio de venta está por debajo del punto de equilibrio.');if(market&&c.salePrice>market*1.1)alerts.push('Tu precio supera en más de 10% la referencia local; valida diferenciación o demanda.');if(n('perceptionPct')>0)alerts.push('La percepción se muestra como salida de caja separada. Si corresponde como crédito/adelanto tributario, no la trates automáticamente como costo definitivo.');alerts.push('Confirma si el producto es restringido o requiere permiso/certificado antes de pagar al proveedor.');$('alerts').innerHTML=alerts.map(x=>'• '+x).join('<br>');
- $('profit').className='value '+(c.profit>=0?'good':'bad');$('roi').className='value '+(c.roi>=20?'good':c.roi>=10?'warn':'bad');$('margin').className='value '+(c.margin>=15?'good':c.margin>=8?'warn':'bad');
- localStorage.setItem('maquitos-draft',JSON.stringify(snapshot()));
-}
-function renderSaved(){const arr=JSON.parse(localStorage.getItem('maquitos-scenarios')||'[]');$('saved').innerHTML=arr.length?arr.map((x,i)=>`<div class="saved-item"><div><b>${x.product||'Escenario'}</b><div class="small">${x.qty} uds · Venta S/ ${Number(x.salePrice||0).toFixed(2)}</div></div><div><button onclick="loadSaved(${i})">Abrir</button> <button onclick="delSaved(${i})">×</button></div></div>`).join(''):'<div class="small">Aún no guardaste escenarios.</div>'}
-window.loadSaved=i=>{const arr=JSON.parse(localStorage.getItem('maquitos-scenarios')||'[]');if(arr[i])apply(arr[i])};window.delSaved=i=>{const arr=JSON.parse(localStorage.getItem('maquitos-scenarios')||'[]');arr.splice(i,1);localStorage.setItem('maquitos-scenarios',JSON.stringify(arr));renderSaved()};
-$('saveBtn').onclick=()=>{const arr=JSON.parse(localStorage.getItem('maquitos-scenarios')||'[]');arr.unshift(snapshot());localStorage.setItem('maquitos-scenarios',JSON.stringify(arr.slice(0,20)));renderSaved()};
-$('copyBtn').onclick=async()=>{const c=compute();const text=`MAQUITOS — ${$('product').value}\nFOB: ${usd(c.fob)}\nInversión económica: ${money(c.economicInvestment)}\nCaja necesaria: ${money(c.cashNeed)}\nCosto puesto/unidad: ${money(c.landedUnit)}\nVenta/unidad: ${money(c.salePrice)}\nUtilidad: ${money(c.profit)}\nROI: ${pct(c.roi)}\nMargen: ${pct(c.margin)}\nPunto de equilibrio: ${money(c.breakEven)}`;try{await navigator.clipboard.writeText(text);$('copyBtn').textContent='Copiado ✓';setTimeout(()=>$('copyBtn').textContent='Copiar resumen',1200)}catch(e){alert(text)}};
-$('exportBtn').onclick=()=>{const c=compute();const lines=[['Campo','Valor'],['Producto',$('product').value],['Cantidad',c.qty],['FOB USD',c.fob.toFixed(2)],['CIF aprox USD',c.customsUSD.toFixed(2)],['Inversión económica PEN',c.economicInvestment.toFixed(2)],['Percepción PEN',c.perception.toFixed(2)],['Caja necesaria PEN',c.cashNeed.toFixed(2)],['Costo unitario PEN',c.landedUnit.toFixed(2)],['Precio venta PEN',c.salePrice.toFixed(2)],['Utilidad PEN',c.profit.toFixed(2)],['ROI %',c.roi.toFixed(2)],['Margen %',c.margin.toFixed(2)],['Punto equilibrio PEN',c.breakEven.toFixed(2)]];const csv='\ufeff'+lines.map(r=>r.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(';')).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='maquitos-'+($('product').value||'escenario').replace(/[^a-z0-9]+/gi,'-').toLowerCase()+'.csv';a.click();URL.revokeObjectURL(a.href)};
-$('resetBtn').onclick=()=>{localStorage.removeItem('maquitos-draft');location.reload()};ids.forEach(id=>$(id).addEventListener('input',calc));ids.forEach(id=>$(id).addEventListener('change',calc));const draft=JSON.parse(localStorage.getItem('maquitos-draft')||'null');if(draft)apply(draft);else calc();renderSaved();
+function updateProgress(){const required=['qty','unitFob','salePrice','freight','fx','product'];let done=required.filter(id=>String($(id).value).trim()!==''&& (['product'].includes(id)||n(id)>0)).length; $('progressText').textContent=`Datos mínimos: ${done}/${required.length}`; $('progressBar').style.width=(done/required.length*100)+'%'; $('progressHint').textContent=done===required.length?'Listo para analizar ✅':'Completa lo esencial para un análisis confiable';}
+function save(){const data={};ids.forEach(id=>data[id]=$(id).value); const arr=JSON.parse(localStorage.getItem('maquitosScenarios')||'[]'); arr.unshift({name:$('product').value||'Escenario',date:new Date().toLocaleString('es-PE'),data}); localStorage.setItem('maquitosScenarios',JSON.stringify(arr.slice(0,10))); renderSaved();}
+function renderSaved(){const arr=JSON.parse(localStorage.getItem('maquitosScenarios')||'[]'); $('saved').innerHTML=arr.length?arr.map((s,i)=>`<div class="saved-item"><div><b>${s.name}</b><div class="small">${s.date}</div></div><div><button onclick="loadSaved(${i})">Cargar</button> <button onclick="delSaved(${i})">×</button></div></div>`).join(''):'<div class="small">Aún no guardaste escenarios.</div>';}
+window.loadSaved=i=>{const arr=JSON.parse(localStorage.getItem('maquitosScenarios')||'[]');Object.entries(arr[i].data).forEach(([k,v])=>{if($(k))$(k).value=v});calc();}; window.delSaved=i=>{const arr=JSON.parse(localStorage.getItem('maquitosScenarios')||'[]');arr.splice(i,1);localStorage.setItem('maquitosScenarios',JSON.stringify(arr));renderSaved();};
+function copySummary(){const c=window.lastCalc||{}; const t=`Maquitos — ${$('product').value}\nCosto unitario: ${money(c.landedUnit)}\nUtilidad: ${money(c.profit)}\nROI: ${pct(c.roi)}\nMargen: ${pct(c.margin)}\nPunto de equilibrio: ${money(c.breakEven)}\nCaja necesaria: ${money(c.cashNeed)}`; navigator.clipboard?.writeText(t);}
+function exportCsv(){const c=window.lastCalc||{}; const rows=[['Campo','Valor'],['Producto',$('product').value],['Cantidad',$('qty').value],['FOB unitario US$',$('unitFob').value],['Costo puesto unitario',c.landedUnit],['Utilidad',c.profit],['ROI %',c.roi],['Margen %',c.margin],['Punto equilibrio',c.breakEven],['Caja necesaria',c.cashNeed]]; const csv=rows.map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(',')).join('\n'); const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='maquitos-proyeccion.csv';a.click();}
+ids.forEach(id=>$(id).addEventListener('input',calc)); $('saveBtn').onclick=save; $('copyBtn').onclick=copySummary; $('exportBtn').onclick=exportCsv; $('resetBtn').onclick=()=>{localStorage.removeItem('maquitosScenarios');location.reload()}; renderSaved(); calc();
 </script>
 </body></html>
