@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-08-14T18:00:00-05:00",
+  "currency": "PEN",
+  "rules": {"unverified_prices":"EST","local_match":"strict SKU/model/dimensions/pack"},
+  "top_novelty": {"product":"Cámara POV compacta para collar de mascota","score":82,"signal":"Ventana","peru_saturation":"low_est","note":"La búsqueda peruana específica sigue mostrando poca oferta local claramente equivalente. Se encontró oferta internacional configurada en PEN a S/234, pero no se trata como retail local comparable."},
+  "saturation_changes": [
+    {"product":"Limpiador eléctrico de brochas de maquillaje","status":"high","evidence":"Mercado Libre Perú muestra 207 resultados; precios visibles aprox. S/24.50-S/50. No incorporar como novedad."},
+    {"product":"Limpiador de patas manual para mascota","status":"high","evidence":"Oferta local confirmada en Brisa Pet S/16, Mercado Libre aprox. S/35 y Sodimac S/50. No incorporar como novedad."},
+    {"product":"Limpiador de patas automático recargable","status":"mid_high","evidence":"Tecnopets Perú publica modelo automático USB a S/95 con 30 disponibles y 602 vendidos. Ya tiene validación local fuerte; no es ventana temprana."},
+    {"product":"Mini selladora térmica portátil","status":"high","evidence":"Mercado Libre Perú muestra 129 resultados; unidades portátiles visibles aprox. S/12-S/39. La variante recargable 2-en-1 debe diferenciarse por modelo para conservar interés."},
+    {"product":"Mini impresora térmica Bluetooth","status":"high","evidence":"Mercado Libre Perú muestra 207 resultados para térmicas portátiles y 383 para impresoras portátiles; pocket genéricas visibles aprox. S/44.99-S/49.99. Mantener Saturado."}
+  ],
+  "local_routes": [
+    {"name":"Brisa Pet Shop","category":"mascotas","reference":"limpiador de patas manual","price_pen":16,"match":"category_reference_not_wholesale_confirmed"},
+    {"name":"Tecno Pets Perú","category":"mascotas","reference":"limpiador de patas automático USB","price_pen":95,"stock":30,"reported_sold":602,"match":"local_retail_validation"},
+    {"name":"JERS IMPORT","category":"mascotas","reference":"limpiador de patas portátil","match":"local_importer_retail_reference"},
+    {"name":"Rinéa","category":"belleza","reference":"limpiador eléctrico de brochas 3 en 1","price_pen":69,"match":"local_retail_validation"}
+  ],
+  "decision":"No subir scores por señales débiles. Mantener cámara POV como Top Novedad; penalizar categorías donde la oferta peruana ya es abundante. Precios Alibaba/AliExpress no confirmados en listing exacto continúan EST."
+}
