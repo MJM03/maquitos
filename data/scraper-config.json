@@ -1,0 +1,5 @@
+{
+  "updated_at": "2026-08-14",
+  "notes": "Añade únicamente páginas cuya consulta automatizada esté permitida. Maquitos intenta leer datos Product/JSON-LD y no evade bloqueos, CAPTCHAs ni controles de acceso.",
+  "sources": []
+}
