@@ -1,0 +1,33 @@
+name: Maquitos Product Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 11 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scrape configured sources
+        run: python scripts/scrape.py
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -- data/scraped-products.json; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "maquitos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/scraped-products.json
+          git commit -m "data: refresh scraped products"
+          git push
