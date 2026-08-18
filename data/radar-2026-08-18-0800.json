@@ -1,0 +1,51 @@
+{
+  "reviewed_at": "2026-08-18T08:00:00-05:00",
+  "top_novelty": {
+    "id": "petcam",
+    "name": "Cámara POV para collar de mascota 1080p/4K",
+    "score": 62,
+    "signal": "Tendencia",
+    "peru_saturation": "media",
+    "note": "Se mantiene como candidato visual y compacto, pero ya existen listings específicos en Perú; no clasificar como baja saturación."
+  },
+  "market_checks": [
+    {
+      "product": "Juguete ratón eléctrico/interactivo para gatos",
+      "peru_saturation": "alta",
+      "score": 34,
+      "status": "Saturado",
+      "evidence": "Mercado Libre Perú muestra 83 resultados y múltiples robots/ratones eléctricos alrededor de S/49-S/65."
+    },
+    {
+      "product": "GPS/collar localizador para mascotas",
+      "peru_saturation": "alta",
+      "score": 25,
+      "status": "Saturado",
+      "evidence": "Mercado Libre Perú muestra 147 resultados para collar GPS perros y cientos para GPS de mascotas en general."
+    },
+    {
+      "product": "Bebedero portátil 2/4-en-1 para mascotas",
+      "peru_saturation": "alta",
+      "score": 28,
+      "status": "Saturado",
+      "evidence": "Oferta local amplia con botellas y kits 2/3/4-en-1 aproximadamente entre S/18.99 y S/72."
+    },
+    {
+      "product": "Cable USB-C 240W con soporte plegable",
+      "peru_saturation": "media-alta",
+      "score": 42,
+      "status": "No priorizar como novedad",
+      "evidence": "Ya existe publicación local del concepto 240W + soporte plegable alrededor de S/47.40."
+    }
+  ],
+  "international_signals": [
+    "Alibaba 2026 destaca gadgets compactos/multifunción, herramientas de precisión y pet-tech.",
+    "Alibaba muestra juguetes eléctricos interactivos para mascotas desde aproximadamente US$1.16-1.20 MOQ 20, pero la categoría ya tiene oferta visible en Perú.",
+    "Alibaba mantiene comederos inteligentes con cámara desde aproximadamente US$35-45 con MOQ pequeño, pero Perú ya presenta retail local y el producto no es compacto."
+  ],
+  "local_routes": {
+    "new_exact_matches": [],
+    "note": "No se agregó ningún mayorista local nuevo: no se encontró un match exacto suficientemente verificado para los candidatos revisados. Se mantienen SeisaTek, Easy Store, Panda Importaciones, Miccell y HD Multimedia."
+  },
+  "data_policy": "Precios AliExpress/fletes/costos no confirmados por checkout permanecen EST. Los precios Alibaba solo se tratan como REAL fuente cuando provienen de un listing verificable."
+}
