@@ -1,0 +1,63 @@
+{
+  "updated_at": "2026-08-18T18:00:00-05:00",
+  "top_novelty": {
+    "product": "Camara POV compacta para collar de mascota",
+    "score": 56,
+    "signal": "Tendencia",
+    "peru_saturation": "Media",
+    "reason": "Ya existen publicaciones especificas 1080p/4K en Peru, por lo que pierde ventaja de novedad, aunque sigue siendo muy demostrable en video.",
+    "aliexpress_price": {"value": null, "status": "EST"},
+    "alibaba_price": {"value": null, "status": "EST"},
+    "peru_retail": {"value": null, "status": "EST"},
+    "trial_lot": {"qty": 3, "status": "EST"},
+    "links": {
+      "peru": "https://listado.mercadolibre.com.pe/collar-con-camara-para-perros",
+      "aliexpress": "https://www.aliexpress.com/wholesale?SearchText=pet+collar+camera+1080p",
+      "alibaba": "https://www.alibaba.com/trade/search?SearchText=pet+collar+camera+1080p"
+    }
+  },
+  "products": [
+    {
+      "product": "Camara POV compacta para collar de mascota",
+      "signal": "Tendencia",
+      "score": 56,
+      "peru_saturation": "Media",
+      "peru_evidence": "Mercado Libre Peru ya muestra publicaciones especificas HD 1080p y 4K para collar de mascota.",
+      "route": "Probar 2-3 unidades por AliExpress; escalar solo si rota.",
+      "prices_status": "EST salvo listing Peru"
+    },
+    {
+      "product": "Organizador magnetico compacto de cables",
+      "signal": "Saturado",
+      "score": 28,
+      "peru_saturation": "Alta",
+      "peru_evidence": "Busqueda especifica en Mercado Libre Peru devuelve 217 resultados; existen packs magneticos de 10-12 clips y Baseus ACWDJ-01.",
+      "route": "No importar como novedad; solo evaluar si aparece modelo/SKU diferencial.",
+      "prices_status": "Retail Peru REAL fuente; China EST"
+    },
+    {
+      "product": "Estuche organizador tech de viaje",
+      "signal": "Saturado",
+      "score": 26,
+      "peru_saturation": "Alta",
+      "peru_evidence": "Mercado Libre Peru muestra 65 resultados, con estuches desde aprox. S/30-S/45 y vendedores con alto volumen.",
+      "route": "Descartar como novedad; solo competir por diseño/marca propia.",
+      "prices_status": "Retail Peru REAL fuente; China EST"
+    },
+    {
+      "product": "Ventilador de cuello recargable plegable",
+      "signal": "Saturado",
+      "score": 31,
+      "peru_saturation": "Alta estacional",
+      "peru_evidence": "Mercado Libre Peru muestra al menos 33 resultados especificos y precios aprox. S/30-S/59.",
+      "route": "No entrar como novedad; posible reventa estacional si aparece costo local excepcional.",
+      "prices_status": "Retail Peru REAL fuente; China EST"
+    }
+  ],
+  "local_wholesale_routes": [],
+  "notes": [
+    "No se encontro en esta revision un nuevo mayorista local con match exacto verificable para las novedades revisadas.",
+    "No se inventaron precios de AliExpress/Alibaba ni fletes: permanecen EST cuando no hay listing/checkout exacto.",
+    "Matching local debe seguir exigiendo modelo/SKU/medidas/pack/variante suficientes."
+  ]
+}
