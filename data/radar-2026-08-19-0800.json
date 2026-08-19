@@ -1,0 +1,48 @@
+{
+  "reviewed_at": "2026-08-19T08:00:00-05:00",
+  "top_novelty": {
+    "name": "Ciclocomputador solar económico",
+    "signal": "Ventana",
+    "score": 74,
+    "peru_saturation": "Baja-Media EST.",
+    "aliexpress_usd": "~12 EST.",
+    "alibaba_usd": "7.31-10.17 REAL fuente",
+    "alibaba_moq": 2,
+    "test_batch": "2-5 unidades",
+    "peru_reference": "La búsqueda general de ciclocomputadores muestra ~20 resultados; solares visibles principalmente Garmin/Coros premium.",
+    "route": "Probar 2-5 unidades y posicionar como solar accesible; validar batería, sensor, resistencia al agua y exactitud antes de escalar.",
+    "links": {
+      "alibaba": "https://www.alibaba.com/countrysearch/CN/solar-bicycle-computer.html",
+      "aliexpress": "https://www.aliexpress.com/wholesale?SearchText=solar+bicycle+computer",
+      "peru": "https://listado.mercadolibre.com.pe/ciclocomputador"
+    }
+  },
+  "changes": [
+    {
+      "name": "Cámara POV compacta para collar de mascota",
+      "score": 54,
+      "signal": "Tendencia",
+      "peru_saturation": "Media",
+      "change": "Baja ligeramente porque la oferta específica en Perú ya existe; Alibaba mantiene fuerte señal internacional y 999+ productos."
+    },
+    {
+      "name": "Máscara de dormir Bluetooth",
+      "score": 22,
+      "signal": "Saturado",
+      "peru_saturation": "Alta",
+      "change": "Descartada como novedad: Mercado Libre Perú muestra más de 100 antifaces y varias versiones Bluetooth alrededor de S/40-78."
+    },
+    {
+      "name": "Sensor Wi-Fi puerta/ventana",
+      "score": 24,
+      "signal": "Saturado",
+      "peru_saturation": "Alta",
+      "change": "Descartado como novedad: existen múltiples Tuya/Smart Life/Sonoff; Sonoff DW2 alrededor de S/39-40 con ventas y opiniones."
+    }
+  ],
+  "local_wholesale_routes": {
+    "new_exact_match_found": false,
+    "note": "No se añadió un mayorista nuevo sin match exacto verificable. Se mantienen las rutas existentes y la regla estricta por SKU/modelo/medidas/pack."
+  },
+  "data_policy": "Todo precio/flete/costo puesto/saturación no confirmado permanece EST.; datos Alibaba indicados como REAL fuente solo cuando proceden de listing verificable."
+}
