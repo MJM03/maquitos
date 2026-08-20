@@ -1,0 +1,26 @@
+{
+  "reviewed_at_lima": "2026-08-20T18:00:00-05:00",
+  "top": {
+    "product": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "US$8.74 REAL fuente para 2-49 unidades; modelo 0702040",
+    "aliexpress": "~US$15-18 EST. usando referencia oficial WEST BIKING",
+    "test_lot": "2-5 unidades",
+    "route": "Probar lote pequeño; confirmar checkout/flete real; validar ciclismo con Elite Bike Shop sin asumir match exacto"
+  },
+  "items": [
+    {"product":"Cámara POV compacta para collar de mascota","score":46,"signal":"Tendencia","peru_saturation":"Media-Alta","change":"50->46","alibaba":"US$20 REAL fuente en referencia 1080p MOQ 5","note":"Ya existen publicaciones específicas 1080p y 4K en Perú"},
+    {"product":"Mini medidor láser recargable 40-60m","score":44,"signal":"Útil","peru_saturation":"Media","change":"46->44","note":"Solo interesa con SKU/costo puesto claramente inferior; no calcular margen sin match exacto"},
+    {"product":"Luz trasera inteligente con sensor de freno","score":24,"signal":"Saturado","peru_saturation":"Alta","note":"Perú ya tiene Meroca, Superfire y Rockbros con sensor de freno"},
+    {"product":"Luz solar de bicicleta + timbre","score":18,"signal":"Saturado","peru_saturation":"Alta","retail_peru":"~S/36-55 en variantes solares","note":"Hay múltiples listings y publicaciones con ventas"},
+    {"product":"Cautín USB-C recargable compacto","score":28,"signal":"Saturado","peru_saturation":"Alta","note":"Mantener fuera de Radar Novedad"},
+    {"product":"Microscopio digital USB/USB-C portátil","score":24,"signal":"Saturado","peru_saturation":"Alta","note":"Mantener fuera de Radar Novedad"}
+  ],
+  "local_routes": [
+    {"name":"Elite Bike Shop","status":"Mayorista verificado","use":"Validación local de ciclismo","exact_match_0702040":false}
+  ],
+  "new_exact_local_wholesaler_matches": [],
+  "data_policy": "REAL solo con listing verificable. AliExpress, flete, costo puesto, saturación no medida directamente y retail objetivo permanecen EST. Matching local exige marca/modelo/SKU, medidas, funciones clave, pack y variante."
+}
