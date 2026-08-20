@@ -1,0 +1,25 @@
+{
+  "reviewed_at_lima": "2026-08-20T08:00:00-05:00",
+  "top": {
+    "product": "Ciclocomputador solar económico",
+    "score": 74,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "US$7.31-10.17 REAL fuente; MOQ 2",
+    "aliexpress": "~US$12 EST.",
+    "test_lot": "2-5 unidades",
+    "route": "Probar lote pequeño; validar precio local con Elite Bike Shop; escalar solo con checkout/flete real"
+  },
+  "items": [
+    {"product":"Cámara POV compacta para collar de mascota","score":50,"signal":"Tendencia","peru_saturation":"Media","change":"52->50","note":"Ya existen publicaciones específicas 1080p/4K en Perú"},
+    {"product":"Mini medidor láser recargable 40-60m","score":46,"signal":"Emergente útil","peru_saturation":"Media","retail_peru":"JQ40 60M ~S/81-83 REAL fuente","note":"No calcular margen sin match exacto"},
+    {"product":"Cautín USB-C recargable compacto","score":30,"signal":"Saturado","peru_saturation":"Alta","alibaba":"~US$3.90-9.98 REAL fuente según modelo/MOQ","note":"Mercado Libre Perú ~171 resultados cautín recargable; ~159 cautín USB"},
+    {"product":"Microscopio digital USB/USB-C portátil","score":26,"signal":"Saturado","peru_saturation":"Alta","alibaba":"~US$6-19 REAL fuente según variante/MOQ","retail_peru":"~S/69-110 en variantes compactas","note":"Mercado Libre Perú ~187 resultados digital USB; ~140 USB 1600x"},
+    {"product":"Mini impresora / label maker portátil","score":24,"signal":"Saturado","peru_saturation":"Alta","alibaba":"~US$4.29-8.25 genéricas; ~US$16-24.90 Niimbot REAL fuente","note":"Categoría ya ampliamente presente en Perú"}
+  ],
+  "local_routes": [
+    {"name":"Elite Bike Shop","status":"Mayorista verificado","use":"Validación local de ciclismo","exact_match_solar":false}
+  ],
+  "new_exact_local_wholesaler_matches": [],
+  "data_policy": "REAL solo con listing verificable. AliExpress, flete, costo puesto, saturación no medida directamente y retail objetivo permanecen EST. Matching local exige modelo/SKU/medidas/pack/variante."
+}
