@@ -1,0 +1,46 @@
+{
+  "reviewed_at": "2026-08-21T18:00:00-05:00",
+  "top": {
+    "name": "WEST BIKING 0702040 ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": {"price": "US$8.74", "moq": "2", "status": "REAL fuente"},
+    "aliexpress": {"status": "EST. hasta checkout"},
+    "local_exact_match": false
+  },
+  "new_candidates": [
+    {
+      "name": "Soporte plegable 360 para celular en avión",
+      "score": 64,
+      "signal": "Ventana",
+      "peru_saturation": "Media EST.",
+      "alibaba": {"price": "US$0.77-0.85", "moq": "10", "status": "REAL fuente"},
+      "alternative_alibaba": {"price": "US$1-1.60", "moq": "2", "status": "REAL fuente"},
+      "peru_retail": {"price": "S/30", "status": "REAL fuente", "seller": "Organízate Home Perú"},
+      "match": "PROBABLE; SKU/medidas/pack no confirmados"
+    },
+    {
+      "name": "Rompevidrios + cortacinturón compacto",
+      "score": 36,
+      "signal": "Saturado/no novedad",
+      "peru_saturation": "Alta",
+      "alibaba": {"price": "US$0.43-0.58", "moq": "20", "status": "REAL fuente"},
+      "peru_evidence": "Múltiples ofertas locales; Baseus ~S/49-56 y Blumi reporta 2,135 vendidos",
+      "action": "Descartar como novedad; solo evaluar por sourcing/precio"
+    }
+  ],
+  "unchanged": [
+    {"name": "Cerradura portátil hotel/Airbnb", "score": 58},
+    {"name": "Cámara POV collar mascota", "score": 45},
+    {"name": "Mini medidor láser 40-60m", "score": 43}
+  ],
+  "local_routes": [
+    {"name": "Elite Bike Shop", "type": "Mayorista verificado", "exact_match": false, "note": "0702040 exacto no confirmado"},
+    {"name": "Organízate Home Perú", "type": "Retail local verificado", "exact_match": false, "note": "sirve para validar soporte de celular para avión; mayorista no confirmado"}
+  ],
+  "rules": {
+    "unknown_prices_shipping_saturation": "EST.",
+    "exact_match_requires": ["marca/modelo/SKU", "medidas", "funciones", "pack", "variante"]
+  }
+}
