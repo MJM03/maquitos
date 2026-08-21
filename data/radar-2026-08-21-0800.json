@@ -1,0 +1,64 @@
+{
+  "reviewed_at": "2026-08-21T08:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "€7.67 REAL fuente, 2-49 unidades",
+    "aliexpress": "EST. hasta checkout",
+    "test_lot": "2-5 unidades",
+    "notes": "No se confirmó publicación peruana activa del SKU 0702040 solar exacto en esta revisión. Mantener matching estricto."
+  },
+  "candidates": [
+    {
+      "name": "Cerradura portátil para hotel / Airbnb",
+      "score": 58,
+      "signal": "Tendencia",
+      "peru_saturation": "Media EST.",
+      "alibaba": "US$0.96-1.74 REAL fuente MOQ 5; referencias adicionales con MOQ 1",
+      "aliexpress": "EST. hasta checkout",
+      "peru_retail": "~S/50 oferta local; ~S/33-65 importadores cross-border",
+      "route": "Probar 3-5u solo con costo puesto claramente inferior al retail",
+      "status": "new"
+    },
+    {
+      "name": "Cámara POV compacta para collar de mascota",
+      "score": 45,
+      "signal": "Tendencia",
+      "peru_saturation": "Media-Alta",
+      "status": "score_down"
+    },
+    {
+      "name": "Mini medidor láser recargable 40-60m",
+      "score": 43,
+      "signal": "Útil",
+      "peru_saturation": "Media",
+      "status": "score_down"
+    },
+    {
+      "name": "Transmisor / receptor Bluetooth 5.3 compacto",
+      "score": 21,
+      "signal": "Saturado",
+      "peru_saturation": "Alta",
+      "status": "rejected"
+    },
+    {
+      "name": "Globo / lámpara levitante magnética",
+      "score": 19,
+      "signal": "Saturado",
+      "peru_saturation": "Alta",
+      "status": "rejected"
+    }
+  ],
+  "local_routes": {
+    "confirmed_new_exact_wholesalers": 0,
+    "kept": ["Elite Bike Shop"],
+    "note": "No se añadió mayorista nuevo sin match exacto verificable."
+  },
+  "rules": {
+    "real_only_when_verified": true,
+    "unverified_prices_shipping_landed_costs": "EST.",
+    "local_matching": "marca/modelo/SKU + medidas + funciones + pack + variante"
+  }
+}
