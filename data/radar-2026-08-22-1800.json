@@ -1,0 +1,29 @@
+{
+  "reviewed_at": "2026-08-22T18:00:00-05:00",
+  "top": {
+    "product": "WEST BIKING 0702040",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba_price": "US$8.74 REAL fuente (2-49u)",
+    "aliexpress_price": "EST. hasta checkout",
+    "test_lot": "2-5u",
+    "notes": "No se confirmó publicación peruana activa del SKU exacto 0702040."
+  },
+  "changes": [
+    {"product":"Soporte plegable 360 para celular en avión","score_from":62,"score_to":60,"reason":"Mayor visibilidad local y categoría de soportes plegables amplia."},
+    {"product":"Cerradura portátil hotel/Airbnb","score_from":56,"score_to":44,"reason":"Mercado Libre Perú muestra 162 resultados en búsqueda amplia y modelos específicos."},
+    {"product":"Cámara POV collar mascota","score_from":44,"score_to":43,"reason":"Continúa cerrándose la ventana por publicaciones 1080p/4K en Perú."},
+    {"product":"Mini medidor láser 40-60m","score_from":42,"score_to":41,"reason":"Competencia local JQ40/SNDWAY/Xiaomi."}
+  ],
+  "evaluated_new": [
+    {"product":"Botella/termo MagSafe con soporte celular","score":30,"signal":"Saturado/no novedad","evidence":"Varias ofertas peruanas; Alibaba con MOQ bajo."},
+    {"product":"Bolsa con cerdas para lavar zapatillas","score":18,"signal":"Saturado","evidence":"Decenas de resultados en Perú y fuerte validación local."}
+  ],
+  "local_routes": [
+    {"name":"Elite Bike Shop","type":"Mayorista verificado","exact_match":"0702040 NO confirmado"},
+    {"name":"Organízate Home Perú","type":"Retail local","exact_match":"soporte avión vs Alibaba NO confirmado"},
+    {"name":"Dirkko Perú","type":"Personalización local","exact_match":"termo MagSafe NO confirmado"}
+  ],
+  "rules": "No calcular margen sin checkout real y match estricto de SKU/modelo/medidas/pack. Datos no confirmados permanecen EST."
+}
