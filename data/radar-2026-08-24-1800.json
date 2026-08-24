@@ -1,0 +1,44 @@
+{
+  "reviewed_at": "2026-08-24T18:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "€7.67/u REAL fuente; MOQ 2",
+    "aliexpress": "EST. hasta checkout",
+    "trial_entry": "2u = €15.34 producto + flete EST.",
+    "retail_peru": "EST.",
+    "profit": "No calculado sin checkout real"
+  },
+  "new_candidates": [
+    {
+      "name": "Cable-correa USB-C 60W 2-en-1 / phone lanyard",
+      "score": 69,
+      "signal": "Emergente",
+      "peru_saturation": "Baja-Media EST.",
+      "alibaba": "US$2.20-2.50/u REAL fuente; MOQ 10",
+      "aliexpress": "EST. hasta checkout",
+      "trial_entry": "10u = US$22-25 producto + flete EST.",
+      "retail_peru": "EST.; no se encontró oferta clara del mismo concepto exacto",
+      "profit": "No calculado sin retail/match exacto"
+    },
+    {
+      "name": "Monitor selfie magnético para cámara trasera",
+      "score": 35,
+      "signal": "Saturado",
+      "peru_saturation": "Alta",
+      "alibaba": "desde US$11.30-14.50/u con MOQ 2 en algunas variantes",
+      "aliexpress": "EST. hasta checkout",
+      "trial_entry": "Posible desde 2u según listing; flete EST.",
+      "retail_peru": "S/149-199 en referencias verificadas",
+      "profit": "No calculado sin mismo SKU/modelo"
+    }
+  ],
+  "changes": [
+    "WEST BIKING 0702040 se mantiene en 78/100.",
+    "Cable-correa USB-C 60W entra con 69/100 como Emergente.",
+    "Monitor selfie magnético entra directamente como Saturado, 35/100, por oferta local ya visible.",
+    "Sin nuevo mayorista peruano con match exacto verificable."
+  ]
+}
