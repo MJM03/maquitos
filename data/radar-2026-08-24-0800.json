@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-08-24T08:00:00-05:00",
+  "top": {
+    "product": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja–Media EST.",
+    "alibaba": "€7.67 REAL fuente (2–49u); €6.68 (50–499u)",
+    "aliexpress": "EST. hasta checkout",
+    "test_lot": "2–5u",
+    "landed_cost": "EST.",
+    "margin": "NO calculado sin checkout real"
+  },
+  "changes": [
+    {
+      "product": "Medidor digital de profundidad de llanta",
+      "score": 24,
+      "signal": "Saturado / no novedad",
+      "peru_saturation": "Alta REAL evidencia",
+      "evidence": "Mercado Libre Perú muestra 107–121 resultados relacionados; precios visibles desde ~S/39.90–55. Alibaba ofrece opciones ~US$1.58–3.50 según listing/MOQ.",
+      "decision": "Descartado como novedad; solo posible arbitraje con logística real."
+    },
+    {
+      "product": "Medidor desgaste cadena bicicleta",
+      "score": 31,
+      "signal": "Producto conocido / nicho",
+      "peru_saturation": "Media–Alta",
+      "evidence": "Oferta local específica observada a S/26.50; Alibaba desde ~US$0.20–0.38 según MOQ.",
+      "decision": "No entra como novedad; posible complemento/arbitraje."
+    },
+    {
+      "product": "Soporte plegable 360° para celular en avión",
+      "score": 62,
+      "signal": "Ventana",
+      "peru_saturation": "Media EST.",
+      "evidence": "Organízate Home Perú mantiene referencia local a S/30.",
+      "decision": "Mantener; no elevar score sin lote pequeño comparable."
+    },
+    {
+      "product": "Cable llavero compacto 4-en-1 / 100W",
+      "score": 57,
+      "signal": "Emergente",
+      "peru_saturation": "Media EST.",
+      "decision": "Mantener; falta medir oferta local exacta y checkout real."
+    }
+  ],
+  "local_routes": {
+    "existing": [
+      "Elite Bike Shop · mayorista verificado de ciclismo; 0702040 exacto NO confirmado",
+      "Organízate Home Perú · retail local del soporte para avión a S/30; mayorista NO confirmado"
+    ],
+    "new_exact_wholesale_matches": 0
+  },
+  "rules": {
+    "strict_match": "modelo/SKU/medidas/pack antes de calcular margen",
+    "unverified_prices": "EST.",
+    "unverified_shipping": "EST.",
+    "unverified_saturation": "EST."
+  }
+}
