@@ -1,0 +1,96 @@
+{
+  "reviewed_at": "2026-08-25T08:00:00-05:00",
+  "top": {
+    "name": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "€7.67/u REAL fuente, MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = €15.34 producto + flete EST.",
+    "peru_retail": "EST.",
+    "potential_profit": "EST.; no calculado sin checkout exacto",
+    "route": "Probar 2-5u y validar precio real antes de escalar"
+  },
+  "candidates": [
+    {
+      "name": "Mini cámara digital retro tipo llavero / Y2K",
+      "score": 73,
+      "signal": "Tendencia",
+      "peru_saturation": "Baja-Media EST.",
+      "alibaba": "US$7.50-10/u REAL fuente, MOQ 2",
+      "aliexpress": "EST. hasta checkout",
+      "test_entry": "2u = US$15-20 producto + flete EST.",
+      "peru_retail": "S/185-200 referencias importadas; no retail local exacto",
+      "potential_profit": "EST.",
+      "route": "Priorizar 1-2u AliExpress; Alibaba si el checkout mantiene ventaja",
+      "notes": "Batería recargable puede elevar flete. Matching por resolución, pantalla, batería, memoria, filtros y tamaño."
+    },
+    {
+      "name": "Cable-correa USB-C 60W 2-en-1",
+      "score": 70,
+      "signal": "Emergente",
+      "peru_saturation": "Baja-Media EST.",
+      "alibaba": "US$2.20-2.50/u REAL fuente, MOQ 10",
+      "aliexpress": "EST. hasta checkout",
+      "test_entry": "10u = US$22-25 producto + flete EST.",
+      "peru_retail": "EST.",
+      "potential_profit": "EST.",
+      "route": "Buscar lote 2-5u en AliExpress primero"
+    },
+    {
+      "name": "Soporte plegable 360° para celular en avión",
+      "score": 61,
+      "signal": "Ventana",
+      "peru_saturation": "Media EST.",
+      "alibaba": "US$1.12 REAL fuente con MOQ 5000",
+      "aliexpress": "EST. lote prueba",
+      "peru_retail": "S/30 REAL fuente",
+      "potential_profit": "EST.; sin match exacto",
+      "route": "Solo probar si AliExpress ofrece lote pequeño con costo puesto bajo"
+    },
+    {
+      "name": "Cable llavero compacto 4-en-1 / 100W",
+      "score": 57,
+      "signal": "Emergente",
+      "peru_saturation": "Media EST.",
+      "alibaba": "US$4.01-18 REAL fuente, MOQ 5",
+      "aliexpress": "EST.",
+      "peru_retail": "EST.",
+      "potential_profit": "EST."
+    },
+    {
+      "name": "Cámara POV compacta para collar de mascota",
+      "score": 41,
+      "signal": "Tendencia",
+      "peru_saturation": "Media-Alta"
+    },
+    {
+      "name": "Cerradura portátil para hotel / Airbnb",
+      "score": 43,
+      "signal": "Tendencia",
+      "peru_saturation": "Media-Alta"
+    },
+    {
+      "name": "Mini medidor láser recargable 40-60m",
+      "score": 40,
+      "signal": "Útil",
+      "peru_saturation": "Media"
+    }
+  ],
+  "local_routes": [
+    {
+      "name": "Elite Bike Shop",
+      "type": "Mayorista local verificado",
+      "exact_match": false,
+      "notes": "No se confirmó WEST BIKING 0702040 exacto."
+    }
+  ],
+  "new_exact_local_wholesalers": [],
+  "rules": {
+    "strict_matching": true,
+    "real_only_when_verifiable": true,
+    "unconfirmed_shipping_costs_are_est": true,
+    "unconfirmed_saturation_is_est": true
+  }
+}
