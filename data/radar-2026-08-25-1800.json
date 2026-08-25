@@ -1,0 +1,37 @@
+{
+  "timestamp_lima": "2026-08-25T18:00:00-05:00",
+  "top_novedad": {
+    "product": "WEST BIKING 0702040 ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "saturation_peru": "Baja–Media EST."
+  },
+  "changes": [
+    {
+      "product": "Mini cámara digital retro tipo llavero / Y2K",
+      "score_before": 73,
+      "score_after": 55,
+      "saturation_before": "Baja–Media EST.",
+      "saturation_after": "Media",
+      "reason": "Mercado Libre Perú muestra 27 resultados y una G6 1080p local específica, además de mini cámaras retro tipo llavero activas."
+    },
+    {
+      "product": "Soporte plegable 360° para celular en avión",
+      "score_before": 61,
+      "score_after": 64,
+      "saturation_after": "Media EST.",
+      "reason": "Alibaba muestra una opción US$1–1.60 con MOQ 2, mejorando la viabilidad de microprueba; Perú mantiene referencia local alrededor de S/30."
+    },
+    {
+      "product": "Mini impresora / etiquetadora portátil",
+      "score_after": 20,
+      "saturation_after": "Saturado",
+      "reason": "Oferta local madura con múltiples marcas y mini impresoras térmicas desde aproximadamente S/47.99."
+    }
+  ],
+  "local_routes": {
+    "new_exact_wholesaler_match": false,
+    "notes": "No se añadió ningún mayorista por similitud; Elite Bike Shop continúa como ruta de validación de ciclismo sin match exacto confirmado para 0702040."
+  },
+  "data_policy": "Precios, flete, costo puesto, saturación y márgenes no confirmados permanecen EST.; solo listings verificables se tratan como REAL fuente."
+}
