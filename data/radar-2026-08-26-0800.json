@@ -1,0 +1,46 @@
+{
+  "reviewed_at": "2026-08-26T08:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": {
+      "price_usd": 8.74,
+      "moq": 2,
+      "status": "REAL fuente"
+    },
+    "aliexpress": "EST. hasta checkout exacto",
+    "trial_entry": "2u = US$17.48 producto + flete EST.",
+    "peru_retail": "EST.; SKU exacto no confirmado localmente"
+  },
+  "changes": [
+    {
+      "name": "Mini cámara digital retro tipo llavero / Y2K",
+      "old_score": 55,
+      "new_score": 53,
+      "signal": "Tendencia",
+      "peru_saturation": "Media",
+      "reason": "Mercado Libre Perú mantiene 27 resultados; existe G6 1080p específica y otra retro llavero. La ficha G6 exacta revisada figura no disponible, pero la categoría ya tiene presencia local suficiente.",
+      "alibaba_g6": "US$5.29-5.82/u REAL fuente · MOQ 2",
+      "retail_visible": "S/101.92-139.90 REAL fuente"
+    }
+  ],
+  "unchanged": [
+    {"name": "Cable-correa USB-C 60W 2-en-1", "score": 70, "saturation": "Baja-Media EST."},
+    {"name": "Soporte plegable 360 para celular en avión", "score": 64, "saturation": "Media EST."},
+    {"name": "Cable llavero compacto 4-en-1 / 100W", "score": 57, "saturation": "Media EST."},
+    {"name": "Cámara POV compacta para collar de mascota", "score": 41, "saturation": "Media-Alta"},
+    {"name": "Cerradura portátil para hotel / Airbnb", "score": 43, "saturation": "Media-Alta"},
+    {"name": "Mini medidor láser recargable 40-60m", "score": 40, "saturation": "Media"}
+  ],
+  "local_routes": {
+    "new_exact_wholesaler_match": false,
+    "kept": ["Elite Bike Shop"],
+    "note": "No se encontró un mayorista peruano nuevo con fabricante/SKU/medidas/pack idénticos a las oportunidades activas."
+  },
+  "rules": {
+    "unverified_prices_shipping_saturation": "EST.",
+    "local_matching": "estricto por modelo/SKU/medidas/pack"
+  }
+}
