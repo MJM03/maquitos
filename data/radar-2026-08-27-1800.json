@@ -1,0 +1,52 @@
+{
+  "reviewed_at": "2026-08-27T18:00:00-05:00",
+  "top": {
+    "product": "WEST BIKING 0702040 ciclocomputador solar",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "US$8.74/u REAL fuente, MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto"
+  },
+  "new_candidates": [
+    {
+      "product": "Portavasos doble para asa de maleta",
+      "score": 74,
+      "signal": "Emergente",
+      "peru_saturation": "Baja-Media EST.",
+      "alibaba": "US$3.35/u REAL fuente, MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "trial_entry": "2u = US$6.70 producto + flete EST.",
+      "peru_retail": "S/39-49 EST.",
+      "potential_profit": "S/26-36 EST. bruto product-only antes de flete/comisiones",
+      "route": "Prueba 2-5u, video demo, validar conversión, escalar si margen neto sano",
+      "reason": "No se confirmó oferta peruana clara del accesorio independiente; sí existen maletas con portavasos integrado."
+    }
+  ],
+  "saturation_changes": [
+    {
+      "product": "Mini selladora USB 2-en-1",
+      "score": 18,
+      "signal": "Saturado",
+      "reason": "Mercado Libre Perú tiene referencia USB 2-en-1 a S/19.90 y cientos de opiniones."
+    }
+  ],
+  "local_routes": [
+    {
+      "name": "Elite Bike Shop",
+      "type": "Mayorista ciclismo",
+      "exact_match": false
+    },
+    {
+      "name": "Mcdodo Perú / Sunrise Perú S.A.C.",
+      "type": "Distribuidor autorizado accesorios",
+      "exact_match": false
+    },
+    {
+      "name": "GM Accesorios Aventura",
+      "type": "Tienda peruana especializada en accesorios de viaje",
+      "exact_match": false,
+      "note": "Ruta de investigación para portavasos de maleta; SKU/modelo/pack exacto no confirmado."
+    }
+  ]
+}
