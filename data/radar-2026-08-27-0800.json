@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-08-27T08:00:00-05:00",
+  "top": {"product":"WEST BIKING 0702040","score":78,"signal":"Ventana","peru_saturation":"Baja-Media EST.","alibaba":"US$8.74/u REAL fuente, MOQ 2","aliexpress":"EST. hasta checkout exacto"},
+  "changes": [
+    {"product":"Mini cámara G6 / THUMB CAMERA 1080p","from":53,"to":45,"reason":"Publicación peruana activa del modelo exacto G6/THUMB CAMERA a S/139.90"},
+    {"product":"Cable llavero / multifunción 4-en-1 100W","from":55,"to":32,"reason":"Perú ya tiene cables 4-en-1 100W, incluido Tranyoo T-XS11 a S/47.99; formato llavero exacto aún no confirmado"},
+    {"product":"Cable-correa USB-C 60W 2-en-1","from":44,"to":42,"reason":"Concepto ya validado localmente; pierde novedad"},
+    {"product":"Cámara POV collar mascota","from":41,"to":40,"reason":"Presencia local sigue creciendo"},
+    {"product":"Cerradura portátil hotel/Airbnb","from":43,"to":42,"reason":"Categoría madura localmente"},
+    {"product":"Mini medidor láser 40-60m","from":40,"to":39,"reason":"Competencia local estable"}
+  ],
+  "discarded": [
+    {"product":"Balanza digital compacta de equipaje","score":20,"reason":"Múltiples referencias locales 50kg; Opalux OP-622 ~S/39 y genéricas/recargables ~S/49.99"},
+    {"product":"Perchas plegables de viaje","score":24,"reason":"Packs y variantes plegables ya disponibles localmente"}
+  ],
+  "local_routes": [
+    {"name":"Elite Bike Shop","type":"Mayorista verificado ciclismo","exact_match":"WEST BIKING 0702040 NO confirmado"},
+    {"name":"Mcdodo Perú / Sunrise Perú S.A.C.","type":"Distribuidor autorizado accesorios","exact_match":"No se asume MOQ/precio mayorista sin cotización"}
+  ],
+  "rules": {"unverified_prices":"EST.","strict_local_matching":"modelo/SKU/medidas/pack"}
+}
