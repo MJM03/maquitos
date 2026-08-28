@@ -1,0 +1,77 @@
+{
+  "reviewed_at": "2026-08-28T08:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040 ciclocomputador solar",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja–Media EST.",
+    "alibaba": "€7.67/u REAL fuente, MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "trial_entry": "2u = €15.34 producto + flete EST.",
+    "peru_retail": "EST.",
+    "profit": "EST. hasta costo puesto y retail exactos"
+  },
+  "candidates": [
+    {
+      "name": "Riemot RM024 portavasos doble para asa de maleta",
+      "score": 74,
+      "signal": "Emergente",
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$3.35/u REAL fuente, MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "trial_entry": "2u = US$6.70 producto + flete EST.",
+      "peru_retail": "S/39–49 EST.",
+      "profit": "S/26–36 EST. bruto producto-only antes de flete/comisiones"
+    },
+    {
+      "name": "Soporte plegable 360° para celular en avión",
+      "score": 64,
+      "signal": "Ventana",
+      "peru_saturation": "Media",
+      "peru_retail": "S/30 REAL fuente",
+      "alibaba": "US$1–1.60/u REAL fuente previa, MOQ 2",
+      "aliexpress": "EST. hasta checkout",
+      "profit": "EST. hasta costo puesto"
+    },
+    {
+      "name": "Mini cámara G6 / THUMB CAMERA 1080p",
+      "score": 40,
+      "signal": "Pierde novedad",
+      "peru_saturation": "Alta",
+      "change": "45 -> 40",
+      "reason": "Mercado Libre Perú mantiene publicación activa del modelo exacto G6/THUMB CAMERA 1080p"
+    },
+    {
+      "name": "Gancho plegable para cartera de mesa",
+      "score": 24,
+      "signal": "Saturado",
+      "peru_saturation": "Alta",
+      "reason": "Ya existen colgadores plegables metálicos activos en Mercado Libre Perú"
+    }
+  ],
+  "local_routes": [
+    {
+      "name": "Elite Bike Shop",
+      "type": "Mayorista ciclismo",
+      "exact_match": false,
+      "note": "WEST BIKING 0702040 exacto no confirmado"
+    },
+    {
+      "name": "Mcdodo Perú / Sunrise Perú S.A.C.",
+      "type": "Distribuidor autorizado",
+      "exact_match": false,
+      "note": "No asumir MOQ ni precio mayorista sin cotización"
+    },
+    {
+      "name": "GM Accesorios Aventura",
+      "type": "Accesorios de viaje",
+      "exact_match": false,
+      "note": "Riemot RM024 exacto no confirmado"
+    }
+  ],
+  "rules": {
+    "unconfirmed_prices_are_est": true,
+    "strict_local_matching": "modelo/SKU/medidas/pack",
+    "no_forced_equivalences": true
+  }
+}
