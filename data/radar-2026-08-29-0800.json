@@ -1,0 +1,70 @@
+{
+  "reviewed_at": "2026-08-29T08:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040 ciclocomputador solar",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "US$8.74/u REAL fuente, MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "peru_retail": "EST.",
+    "potential_profit": "EST. hasta costo puesto",
+    "route": "Probar 2-5 unidades; escalar solo con costo puesto y conversión validados"
+  },
+  "opportunities": [
+    {
+      "name": "Riemot RM024 portavasos doble para asa de maleta",
+      "score": 74,
+      "signal": "Emergente",
+      "peru_saturation": "Baja-Media EST.",
+      "alibaba": "US$3.35/u REAL fuente, MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "2u = US$6.70 producto + flete EST.",
+      "peru_retail": "S/39-49 EST.",
+      "potential_profit": "S/26-36 EST. bruto producto-only antes de flete/comisiones",
+      "route": "Muestra AliExpress si conviene; Alibaba 2-5u; video demo; escalar con costo puesto real"
+    },
+    {
+      "name": "Soporte plegable 360 para celular en avión",
+      "score": 64,
+      "signal": "Ventana",
+      "peru_saturation": "Media",
+      "alibaba": "US$1-1.60/u REAL fuente previa, MOQ 2",
+      "aliexpress": "EST. hasta checkout",
+      "peru_retail": "S/30 REAL fuente previa",
+      "potential_profit": "EST. hasta costo puesto",
+      "route": "Solo variante claramente mejor o costo puesto bajo"
+    },
+    {
+      "name": "Portapasaporte RFID con slot AirTag/rastreador",
+      "score": 29,
+      "signal": "Saturado",
+      "peru_saturation": "Alta por concepto",
+      "alibaba": "Modelo 2026 verificable; precio exacto de muestra no confirmado",
+      "aliexpress": "EST. hasta checkout",
+      "peru_retail": "HOCO E91G y múltiples RFID REAL fuente",
+      "potential_profit": "No priorizar como novedad",
+      "route": "Solo branding/diseño diferencial"
+    }
+  ],
+  "score_changes": [
+    {"name":"Mini cámara G6 / THUMB CAMERA 1080p","from":36,"to":35,"reason":"match exacto local activo"},
+    {"name":"Cable llavero 4-en-1 100W","from":32,"to":31,"reason":"concepto ya presente en Perú"},
+    {"name":"Cable-correa USB-C 60W","from":42,"to":41,"reason":"validación local Mcdodo/OEM"},
+    {"name":"Cámara POV collar mascota","from":40,"to":39,"reason":"presencia local creciente"},
+    {"name":"Cerradura portátil hotel/Airbnb","from":42,"to":41,"reason":"oferta accesible creciente"},
+    {"name":"Mini medidor láser 40-60m","from":39,"to":38,"reason":"categoría local ya validada"}
+  ],
+  "local_routes": [
+    {"name":"Elite Bike Shop","status":"Mayorista verificado; WEST BIKING 0702040 exacto NO confirmado"},
+    {"name":"Mcdodo Perú / Sunrise Perú S.A.C.","status":"Distribuidor autorizado; MOQ/precio mayorista no asumidos"},
+    {"name":"GM Accesorios Aventura","status":"Ruta de viaje; Riemot RM024 exacto NO confirmado"}
+  ],
+  "new_exact_local_wholesaler_matches": [],
+  "rules": {
+    "unverified_values": "EST.",
+    "exact_matching": "marca/modelo/SKU/medidas/pack",
+    "no_forced_equivalence": true
+  }
+}
