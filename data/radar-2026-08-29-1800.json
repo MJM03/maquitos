@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-08-29T18:00:00-05:00",
+  "top": {
+    "name": "WEST BIKING 0702040 ciclocomputador solar",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa, MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "profit": "No calculado sin costo puesto real"
+  },
+  "changes": [
+    {
+      "name": "Riemot RM024 portavasos doble para maleta",
+      "score_from": 74,
+      "score_to": 75,
+      "reason": "Producto activo en tienda oficial Riemot y sin match peruano exacto verificado en revisión fresca.",
+      "alibaba": "US$3.35/u REAL fuente previa, MOQ 2",
+      "official_retail": "US$16.99 REAL fuente",
+      "peru_saturation": "Baja-Media EST."
+    },
+    {
+      "name": "Soporte plegable 360 para celular en avión",
+      "score_from": 64,
+      "score_to": 65,
+      "reason": "Alibaba verificable a US$1-1.60 con MOQ 2 mejora viabilidad de lote prueba.",
+      "peru_saturation": "Media",
+      "retail_peru": "S/30 REAL fuente previa"
+    }
+  ],
+  "local_routes": [
+    {
+      "name": "Elite Bike Shop",
+      "status": "Mayorista verificado; WEST BIKING 0702040 exacto no confirmado"
+    },
+    {
+      "name": "Mcdodo Peru / Sunrise Peru S.A.C.",
+      "status": "Distribuidor autorizado; MOQ/precio mayorista no asumido"
+    },
+    {
+      "name": "Miccell",
+      "status": "Mayorista tecnológico verificado; match exacto con líderes no confirmado"
+    },
+    {
+      "name": "GM Accesorios Aventura",
+      "status": "Ruta de viaje; Riemot RM024 exacto no confirmado"
+    }
+  ],
+  "rules": {
+    "strict_match": "marca/modelo/SKU/medidas/variante/pack",
+    "unknown_values": "EST.",
+    "no_exact_match_no_margin": true
+  }
+}
