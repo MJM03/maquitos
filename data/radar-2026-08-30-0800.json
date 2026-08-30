@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-08-30T08:00:00-05:00",
+  "top": {
+    "product": "WEST BIKING 0702040 ciclocomputador solar",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja-Media EST.",
+    "alibaba": {"price_usd": 8.74, "moq": 2, "status": "REAL fuente"},
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "profit": "EST.; no calculado sin costo puesto"
+  },
+  "opportunities": [
+    {"product":"Riemot RM024 portavasos doble para maleta","score":75,"signal":"Emergente","saturation":"Baja-Media EST.","alibaba":"US$3.35/u REAL fuente, MOQ 2","aliexpress":"EST.","retail_peru":"S/39-49 EST.","profit":"S/26-36 EST. bruto producto-only"},
+    {"product":"Soporte plegable 360 para celular en avion","score":61,"signal":"Tendencia","saturation":"Media","change":"65->61"},
+    {"product":"Compression packing cubes 7 piezas","score":28,"signal":"Saturado","saturation":"Alta por concepto","alibaba":"US$1.79-2.51 REAL fuente, MOQ 2"},
+    {"product":"Mini espejo compacto de viaje LED","score":20,"signal":"Saturado","saturation":"Alta"},
+    {"product":"Mini ventilador portatil de bolsillo","score":18,"signal":"Saturado/estacional","saturation":"Alta"},
+    {"product":"Mini camara G6 THUMB CAMERA 1080p","score":34,"signal":"Saturado","saturation":"Alta","change":"35->34"},
+    {"product":"Cable-correa USB-C 60W","score":40,"signal":"Pierde novedad","saturation":"Media-Alta","change":"41->40"},
+    {"product":"Camara POV collar mascota","score":38,"signal":"Tendencia","saturation":"Media-Alta","change":"39->38"},
+    {"product":"Cerradura portatil hotel Airbnb","score":40,"signal":"Tendencia","saturation":"Media-Alta","change":"41->40"},
+    {"product":"Mini medidor laser 40-60m","score":37,"signal":"Util","saturation":"Media","change":"38->37"}
+  ],
+  "local_routes": [
+    {"name":"Elite Bike Shop","status":"Mayorista verificado","exact_match":"WEST BIKING 0702040 NO confirmado"},
+    {"name":"Mcdodo Peru / Sunrise Peru S.A.C.","status":"Distribuidor autorizado verificado"},
+    {"name":"Miccell","status":"Mayorista tecnologico verificado"},
+    {"name":"GM Accesorios Aventura","status":"Ruta viaje; match RM024 NO confirmado"}
+  ],
+  "new_exact_local_wholesaler_matches": 0,
+  "rules": ["No inventar datos REAL","AliExpress/flete/costo puesto no confirmados permanecen EST.","Matching local estricto por modelo/SKU/medidas/pack"]
+}
