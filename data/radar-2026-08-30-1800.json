@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-08-30T18:00:00-05:00",
+  "top_novedad": {
+    "product": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "saturation_peru": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "retail_peru": "EST.",
+    "profit": "EST. hasta costo puesto"
+  },
+  "changes": [
+    {
+      "product": "Riemot RM024 · portavasos doble para asa de maleta",
+      "score": 75,
+      "status": "Sin cambio",
+      "note": "No se confirmó match peruano exacto del accesorio RM024 independiente; maletas con portavasos integrado no cuentan como match."
+    },
+    {
+      "product": "Soporte plegable 360° para celular en avión",
+      "score_previous": 61,
+      "score": 59,
+      "status": "Baja score",
+      "note": "Listing básico verificable: US$1.12/u con MOQ 50. Variante magnética/multifunción: US$3.18–3.78 con MOQ 1. AliExpress y ganancia continúan EST."
+    }
+  ],
+  "local_routes": {
+    "new_exact_matches": 0,
+    "kept": ["Elite Bike Shop", "Mcdodo Perú / Sunrise Perú S.A.C.", "Miccell", "GM Accesorios Aventura"],
+    "rule": "No usar para margen sin coincidencia estricta de modelo/SKU/medidas/pack."
+  }
+}
