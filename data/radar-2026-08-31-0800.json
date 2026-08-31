@@ -1,0 +1,89 @@
+{
+  "reviewed_at": "2026-08-31T08:00:00-05:00",
+  "top_novedad": {
+    "product": "WEST BIKING 0702040 ciclocomputador solar",
+    "signal": "Ventana",
+    "score": 78,
+    "peru_saturation": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 + flete EST.",
+    "peru_retail": "EST.",
+    "profit": "EST. / no calculada sin costo puesto",
+    "route": "Probar 2–5u; validar conversión; escalar solo si conserva ventaja"
+  },
+  "changes": [
+    {
+      "product": "Riemot RM024 portavasos doble para maleta",
+      "score": 75,
+      "signal": "Emergente",
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$3.35/u REAL fuente · MOQ 2"
+    },
+    {
+      "product": "Soporte plegable de silicona + mosquetón",
+      "score": 63,
+      "signal": "Emergente",
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$2.30–2.60/u REAL fuente · MOQ 10",
+      "status": "Nuevo candidato"
+    },
+    {
+      "product": "Soporte plegable 360° para celular en avión",
+      "score_before": 59,
+      "score_after": 52,
+      "signal": "Tendencia",
+      "peru_saturation": "Media",
+      "alibaba": "US$1.12/u REAL fuente · MOQ 5000",
+      "reason": "MOQ actual del listing básico hace inviable una prueba pequeña"
+    },
+    {
+      "product": "Mini cámara G6 / THUMB CAMERA 1080p",
+      "score_before": 34,
+      "score_after": 33,
+      "signal": "Saturado"
+    },
+    {
+      "product": "Cable-correa USB-C 60W 2-en-1",
+      "score_before": 40,
+      "score_after": 39,
+      "peru_saturation": "Media–Alta"
+    },
+    {
+      "product": "Cámara POV compacta para collar de mascota",
+      "score_before": 38,
+      "score_after": 37,
+      "peru_saturation": "Media–Alta"
+    }
+  ],
+  "local_routes": [
+    {
+      "name": "RASEC OUTDOORS Perú",
+      "status": "Nueva ruta específica de marca WEST BIKING",
+      "exact_match_0702040": false,
+      "evidence": "Publica productos WEST BIKING con modelos explícitos; SKU 0702040 no confirmado"
+    },
+    {
+      "name": "Elite Bike Shop",
+      "status": "Ruta mayorista ciclismo",
+      "exact_match_0702040": false
+    },
+    {
+      "name": "Mcdodo Perú / Sunrise Perú S.A.C.",
+      "status": "Distribuidor autorizado",
+      "exact_match_current_leaders": false
+    },
+    {
+      "name": "Miccell",
+      "status": "Mayorista tecnológico",
+      "exact_match_current_leaders": false
+    },
+    {
+      "name": "GM Accesorios Aventura",
+      "status": "Ruta viaje",
+      "exact_match_rm024": false
+    }
+  ],
+  "matching_rule": "No calcular margen local salvo coincidencia suficiente de modelo/SKU/medidas/material/variante/pack.",
+  "data_rule": "Todo precio, flete, saturación o margen no confirmado permanece EST."
+}
