@@ -1,0 +1,74 @@
+{
+  "reviewed_at": "2026-08-31T18:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "score": 78,
+    "signal": "Ventana",
+    "peru_saturation": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "peru_retail": "EST.",
+    "potential_profit": "EST. hasta costo puesto real",
+    "route": "Probar 2–5 unidades y validar conversión/precio real antes de escalar"
+  },
+  "leaders": [
+    {
+      "name": "Riemot RM024 · portavasos doble para asa de maleta",
+      "score": 75,
+      "signal": "Emergente",
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$3.35/u REAL fuente · MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "2u = US$6.70 + flete EST.",
+      "peru_retail": "S/39–49 EST.",
+      "potential_profit": "EST. hasta costo puesto real"
+    },
+    {
+      "name": "Clip magnético porta-sombrero para viaje",
+      "score": 68,
+      "signal": "Tendencia",
+      "peru_saturation": "Media",
+      "alibaba": "US$0.30–0.70/u REAL fuente · MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "2u = US$0.60–1.40 + flete EST.",
+      "peru_retail": "S/79 REAL comparable Benavia; NO match SKU",
+      "potential_profit": "EST.; no calcular margen exacto sin match/costo puesto",
+      "route": "Probar 2–5 unidades y validar fuerza del imán/calidad"
+    },
+    {
+      "name": "Soporte plegable de silicona + mosquetón",
+      "score": 62,
+      "signal": "Emergente",
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$2.30–2.60/u REAL fuente · MOQ 10",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "10u = US$23–26 + flete EST.",
+      "peru_retail": "EST.",
+      "potential_profit": "EST."
+    }
+  ],
+  "score_changes": [
+    "Soporte silicona + mosquetón 63→62",
+    "Soporte avión 52→51",
+    "Packing cubes 27→26",
+    "G6 33→32",
+    "Cable-correa USB-C 39→38",
+    "POV mascota 37→36",
+    "Cerradura portátil 39→38",
+    "Medidor láser 36→35"
+  ],
+  "local_routes": [
+    "Benavia Perú: retail validado del concepto clip magnético porta-sombrero a S/79; mayorista NO confirmado",
+    "RASEC OUTDOORS Perú: WEST BIKING verificado; SKU 0702040 exacto NO confirmado",
+    "Elite Bike Shop: mayorista ciclismo; SKU 0702040 exacto NO confirmado",
+    "Mcdodo Perú / Sunrise Perú S.A.C.: distribuidor autorizado; sin MOQ/precio mayorista asumido",
+    "Miccell: mayorista tecnológico; no usado sin match exacto",
+    "GM Accesorios Aventura: ruta viaje; RM024 exacto NO confirmado"
+  ],
+  "notes": [
+    "No se encontró nuevo MATCH EXACTO mayorista para los líderes.",
+    "Precios, flete, saturación, retail o ganancias no verificadas permanecen EST.",
+    "Se preservó matching estricto por fabricante/modelo/SKU/medidas/pack."
+  ]
+}
