@@ -1,0 +1,63 @@
+{
+  "reviewed_at": "2026-09-01T18:00:00-05:00",
+  "top": {
+    "name": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "signal": "Ventana",
+    "score": 78,
+    "peru_saturation": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "peru_retail": "EST.",
+    "profit": "EST. · no calculado sin costo puesto",
+    "route": "Probar 2–5 unidades y escalar solo con costo puesto/margen validado"
+  },
+  "leaders": [
+    {
+      "name": "Riemot RM024 · portavasos doble para asa de maleta",
+      "signal": "Emergente",
+      "score": 75,
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$3.35/u REAL fuente · MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "2u = US$6.70 + flete EST.",
+      "peru_retail": "S/39–49 EST.",
+      "profit": "EST. hasta costo puesto real",
+      "route": "2–5u → contenido viaje → validar conversión"
+    },
+    {
+      "name": "Soporte dual viaje · bandeja de avión + asa de maleta",
+      "signal": "Emergente",
+      "score": 66,
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$0.76–1.09/u REAL fuente · MOQ 5",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "5u = US$3.80–5.45 + flete EST.",
+      "peru_retail": "EST. · sin match exacto verificado",
+      "profit": "EST.",
+      "route": "5u → demo aeropuerto/maleta → validar conversión"
+    }
+  ],
+  "score_changes": [
+    {"name":"Clip magnético porta-sombrero para viaje","from":67,"to":66,"reason":"Señal internacional madura y retail local del concepto"},
+    {"name":"Soporte plegable de silicona + mosquetón","from":61,"to":60,"reason":"Envejecimiento de señal sin nueva validación peruana"},
+    {"name":"Soporte plegable 360° para celular en avión · genérico","from":50,"to":49,"reason":"Comparables internacionales crecientes; variante dual priorizada"},
+    {"name":"Compression packing cubes 7 piezas","from":25,"to":24,"reason":"Saturado por concepto"},
+    {"name":"Mini cámara digital G6 / THUMB CAMERA 1080p","from":31,"to":30,"reason":"Match exacto local existente"},
+    {"name":"Cable-correa USB-C 60W 2-en-1","from":37,"to":36,"reason":"Pierde novedad por presencia local"},
+    {"name":"Cámara POV compacta para collar de mascota","from":35,"to":34,"reason":"Ventana temprana cerrándose"},
+    {"name":"Cerradura portátil para hotel / Airbnb","from":37,"to":36,"reason":"Competencia local creciente"},
+    {"name":"Mini medidor láser recargable 40–60m","from":34,"to":33,"reason":"Saturación media y sin ventaja SKU validada"}
+  ],
+  "local_routes": [
+    {
+      "name": "Grupo Importadora SMC",
+      "type": "Mayorista tecnológico Lima",
+      "exact_match": false,
+      "wholesale_confirmed": true,
+      "url": "https://importadorasmcsac.pe/"
+    }
+  ],
+  "matching_rule": "MATCH EXACTO solo con fabricante/modelo/SKU/medidas/pack equivalentes. No calcular margen real con comparables parciales.",
+  "notes": "No se encontró una novedad nueva que supere a los líderes bajo el criterio estricto. Precios, flete, saturación, retail y utilidad no confirmados permanecen EST. No apareció un nuevo mayorista peruano con MATCH EXACTO para los líderes."
+}
