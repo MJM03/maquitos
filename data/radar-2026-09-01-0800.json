@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-09-01T08:00:00-05:00",
+  "top": {
+    "name": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "signal": "Ventana",
+    "score": 78,
+    "peru_saturation": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "peru_retail": "EST.",
+    "profit": "EST. · no calculado sin costo puesto",
+    "route": "Probar 2–5 unidades y escalar solo con costo puesto/margen validado"
+  },
+  "new_candidates": [
+    {
+      "name": "Soporte dual viaje · bandeja de avión + asa de maleta",
+      "signal": "Emergente",
+      "score": 66,
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$0.76–1.09/u REAL fuente · MOQ 5",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "5u = US$3.80–5.45 + flete EST.",
+      "peru_retail": "EST. · sin match exacto verificado",
+      "profit": "EST.",
+      "route": "5u → demo aeropuerto/maleta → validar conversión",
+      "links": {
+        "alibaba": "https://www.alibaba.com/pla/Foldable-Travel-Phone-Holder-for-Airplane_1601838752146.html",
+        "aliexpress": "https://www.aliexpress.com/wholesale?SearchText=airplane+tray+luggage+handle+phone+holder",
+        "peru": "https://listado.mercadolibre.com.pe/soporte-celular-viaje-avion"
+      }
+    }
+  ],
+  "score_changes": [
+    {"name":"Clip magnético porta-sombrero para viaje","from":68,"to":67,"reason":"Concepto ya validado retail local"},
+    {"name":"Soporte plegable de silicona + mosquetón","from":62,"to":61,"reason":"Envejecimiento de señal sin nueva validación peruana"},
+    {"name":"Soporte plegable 360° para celular en avión · genérico","from":51,"to":50,"reason":"Despriorizado frente a variante dual con MOQ 5"},
+    {"name":"Compression packing cubes 7 piezas","from":26,"to":25,"reason":"Saturado por concepto"},
+    {"name":"Mini cámara digital G6 / THUMB CAMERA 1080p","from":32,"to":31,"reason":"Match exacto local ya existente"},
+    {"name":"Cable-correa USB-C 60W 2-en-1","from":38,"to":37,"reason":"Pierde novedad por presencia local"},
+    {"name":"Cámara POV compacta para collar de mascota","from":36,"to":35,"reason":"Ventana temprana cerrándose"},
+    {"name":"Cerradura portátil para hotel / Airbnb","from":38,"to":37,"reason":"Competencia local creciente"},
+    {"name":"Mini medidor láser recargable 40–60m","from":35,"to":34,"reason":"Saturación media y sin ventaja SKU validada"}
+  ],
+  "local_routes": [
+    {
+      "name": "Makeway Perú",
+      "type": "Referencia local de accesorios de viaje",
+      "exact_match": false,
+      "wholesale_confirmed": false,
+      "url": "https://makeway.pe/"
+    }
+  ],
+  "matching_rule": "MATCH EXACTO solo con fabricante/modelo/SKU/medidas/pack equivalentes. No calcular margen real con comparables parciales.",
+  "notes": "Precios, flete, saturación, retail y utilidad no confirmados permanecen EST. No se encontró un nuevo mayorista peruano con MATCH EXACTO para los líderes."
+}
