@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-09-02T18:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040",
+    "score": 78,
+    "signal": "Ventana",
+    "saturation_peru": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "retail_peru": "EST.",
+    "potential_profit": "EST. hasta costo puesto real",
+    "route": "2–5u → validar costo puesto y conversión → escalar si conserva ventaja",
+    "strict_local_match": false
+  },
+  "updates": [
+    {
+      "name": "Riemot RM024",
+      "score": 75,
+      "signal": "Emergente",
+      "saturation_peru": "Baja–Media EST.",
+      "alibaba": "US$3.35/u REAL · MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "2u = US$6.70 + flete EST.",
+      "retail_peru": "S/39–49 EST.",
+      "potential_profit": "EST. hasta costo puesto real",
+      "strict_local_match": false
+    },
+    {
+      "name": "Soporte dual viaje · bandeja de avión + asa de maleta",
+      "score": 64,
+      "previous_score": 65,
+      "signal": "Emergente",
+      "saturation_peru": "Baja–Media EST.",
+      "alibaba": "US$0.76–1.09/u REAL fuente previa · MOQ 5",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "5u = US$3.80–5.45 + flete EST.",
+      "retail_peru": "EST.",
+      "potential_profit": "EST.",
+      "strict_local_match": false
+    },
+    {
+      "name": "Clip magnético porta-sombrero para viaje",
+      "score": 59,
+      "previous_score": 61,
+      "signal": "Tendencia",
+      "saturation_peru": "Media–Alta EST.",
+      "alibaba": "US$1.12–1.80/u REAL · MOQ 20; categoría 999+ ofertas y listado con 200 vendidos",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "20u = US$22.40–36.00 + flete EST.",
+      "retail_peru": "S/79 REAL comparable previo · NO match SKU",
+      "potential_profit": "EST. · no calcular sin costo puesto/match",
+      "strict_local_match": false
+    },
+    {
+      "name": "Bolso magnético compacto para gimnasio/viaje",
+      "score": 44,
+      "signal": "Tendencia / observar",
+      "saturation_peru": "EST. no confirmada",
+      "alibaba": "US$4.60–4.80/u REAL · MOQ 50",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "50u = US$230–240 + flete EST.",
+      "retail_peru": "EST.",
+      "potential_profit": "EST.",
+      "route": "No priorizar: MOQ alto para V1; observar hasta hallar MOQ menor o ruta local exacta"
+    }
+  ],
+  "local_routes": [
+    {
+      "name": "Rider Lab",
+      "type": "Ventas por mayor ciclismo · Lima",
+      "location": "Av. Santa Cruz 843, Miraflores, Lima",
+      "strict_match": "WEST BIKING 0702040 NO confirmado",
+      "url": "https://www.riderlab.pe/"
+    }
+  ],
+  "notes": [
+    "No se encontró nuevo MATCH EXACTO local para WEST BIKING 0702040, Riemot RM024 o soporte dual.",
+    "Todo precio, flete, saturación, retail o margen no confirmado permanece EST.",
+    "Matching local estricto preservado por fabricante/modelo/SKU/medidas/pack."
+  ]
+}
