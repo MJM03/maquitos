@@ -1,0 +1,71 @@
+{
+  "reviewed_at": "2026-09-02T08:00:00-05:00",
+  "top": {
+    "name": "WEST BIKING 0702040 · ciclocomputador solar económico",
+    "signal": "Ventana",
+    "score": 78,
+    "peru_saturation": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "peru_retail": "EST.",
+    "profit": "EST. · no calculado sin costo puesto",
+    "route": "Probar 2–5 unidades y escalar solo con costo puesto/margen validado"
+  },
+  "leaders": [
+    {
+      "name": "Riemot RM024 · portavasos doble para asa de maleta",
+      "signal": "Emergente",
+      "score": 75,
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$3.35/u REAL fuente · MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "2u = US$6.70 + flete EST.",
+      "peru_retail": "S/39–49 EST.",
+      "profit": "EST. hasta costo puesto real",
+      "route": "2–5u → contenido viaje → validar conversión"
+    },
+    {
+      "name": "Soporte dual viaje · bandeja de avión + asa de maleta",
+      "signal": "Emergente",
+      "score": 65,
+      "peru_saturation": "Baja–Media EST.",
+      "alibaba": "US$0.76–1.09/u REAL fuente · MOQ 5",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "5u = US$3.80–5.45 + flete EST.",
+      "peru_retail": "EST. · sin match exacto verificado",
+      "profit": "EST.",
+      "route": "5u → demo aeropuerto/maleta → validar conversión"
+    }
+  ],
+  "score_changes": [
+    {"name":"Clip magnético porta-sombrero para viaje","from":66,"to":61,"reason":"Oferta internacional muy amplia: Alibaba muestra 999+ resultados y listados con ventas; sube saturación a Media–Alta EST."},
+    {"name":"Soporte dual viaje · bandeja de avión + asa de maleta","from":66,"to":65,"reason":"Sin nueva validación peruana exacta; conserva interés pero envejece la señal"},
+    {"name":"Soporte plegable de silicona + mosquetón","from":60,"to":59,"reason":"Envejecimiento de señal sin nueva validación peruana"},
+    {"name":"Soporte plegable 360° para celular en avión · genérico","from":49,"to":48,"reason":"Comparables crecientes; variante dual continúa priorizada"},
+    {"name":"Compression packing cubes 7 piezas","from":24,"to":23,"reason":"Saturado por concepto"},
+    {"name":"Mini cámara digital G6 / THUMB CAMERA 1080p","from":30,"to":29,"reason":"Match exacto local existente"},
+    {"name":"Cable-correa USB-C 60W 2-en-1","from":36,"to":35,"reason":"Pierde novedad por presencia local"},
+    {"name":"Cámara POV compacta para collar de mascota","from":34,"to":33,"reason":"Ventana temprana cerrándose"},
+    {"name":"Cerradura portátil para hotel / Airbnb","from":36,"to":35,"reason":"Competencia local creciente"},
+    {"name":"Mini medidor láser recargable 40–60m","from":33,"to":32,"reason":"Saturación media y sin ventaja SKU validada"}
+  ],
+  "local_routes": [
+    {
+      "name": "PorMayor.App",
+      "type": "Mayorista multirubro Lima/Perú",
+      "exact_match": false,
+      "wholesale_confirmed": true,
+      "url": "https://www.pormayor.app/"
+    },
+    {
+      "name": "Foxce / Acce Fhone Import S.A.C.",
+      "type": "Importador y mayorista tecnológico Lima",
+      "exact_match": false,
+      "wholesale_confirmed": true,
+      "url": "https://accephone.com/"
+    }
+  ],
+  "matching_rule": "MATCH EXACTO solo con fabricante/modelo/SKU/medidas/pack equivalentes. No calcular margen real con comparables parciales.",
+  "notes": "WEST BIKING 0702040 y Riemot RM024 conservan liderazgo. No se confirmó match peruano exacto nuevo. El clip porta-sombrero pierde atractivo por fuerte amplitud de oferta internacional. AliExpress, flete, saturación, retail y utilidad no confirmados permanecen EST."
+}
