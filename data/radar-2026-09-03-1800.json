@@ -1,0 +1,43 @@
+{
+  "revision": "2026-09-03T18:00:00-05:00",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "score": 78,
+    "senal": "Ventana",
+    "saturacion_peru": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa; MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia": "EST. hasta costo puesto real",
+    "ruta": "Probar 2–5u y escalar solo tras validar costo puesto y conversión"
+  },
+  "candidatos": [
+    {"producto":"Riemot RM024","score":75,"senal":"Emergente","saturacion_peru":"Baja–Media EST.","alibaba":"US$3.35/u REAL fuente previa; MOQ 2","aliexpress":"EST.","entrada_prueba":"2u = US$6.70 + flete EST.","retail_peru":"S/39–49 EST.","ganancia":"EST."},
+    {"producto":"Soporte dual viaje bandeja avión + asa maleta","score":62,"senal":"Emergente","saturacion_peru":"Baja–Media EST.","alibaba":"US$0.76–1.09/u REAL fuente previa; MOQ 5","aliexpress":"EST.","entrada_prueba":"5u = US$3.80–5.45 + flete EST.","retail_peru":"EST.","ganancia":"EST."},
+    {"producto":"Clip magnético porta-sombrero","score":57,"senal":"Tendencia","saturacion_peru":"Media–Alta EST.","alibaba":"US$1.12–1.80/u REAL fuente previa; MOQ 20","aliexpress":"EST.","entrada_prueba":"20u = US$22.40–36.00 + flete EST.","retail_peru":"S/79 REAL comparable previo; NO match SKU","ganancia":"EST."},
+    {"producto":"Soporte silicona + mosquetón","score":56,"senal":"Emergente","saturacion_peru":"Baja–Media EST."},
+    {"producto":"Bolso magnético gimnasio/viaje","score":42,"senal":"Tendencia/observar","saturacion_peru":"EST.","alibaba":"US$4.60–4.80/u REAL fuente previa; MOQ 50","entrada_prueba":"US$230–240 + flete EST."}
+  ],
+  "descartados_revision": [
+    {"producto":"Mini selladora USB 2-en-1","score":24,"senal":"Saturado","motivo":"Perú ya tiene retail directo del mismo concepto sellar+cortar; Casaline S/15 comparable, NO match SKU.","fuente_alibaba":"https://www.alibaba.com/product-introduction/USB-Rechargeable-Portable-Food-Plastic-Bag_1600993880127.html","fuente_peru":"https://www.casaline.pe/collections/electricos-especiales/products/mini-selladora-y-cortadora-portatil-de-bolsas-con-calor-2-en-1"},
+    {"producto":"Organizador magnético de cables","score":27,"senal":"Saturado","motivo":"Perú ya vende Baseus ACWDJ-01 y genéricos; no es ventana temprana.","alibaba":"US$0.30/u REAL; MOQ 100","retail_peru":"S/25 REAL Baseus ACWDJ-01; NO match SKU","fuente_alibaba":"https://www.alibaba.com/product-introduction/Soft-Silicone-Magnetic-Cable-Winder-Organizer_62173279669.html","fuente_peru":"https://neodigitalperu.com/products/organizador-de-cables-magnetico-baseus-acwdj-01"}
+  ],
+  "cambios_score": {
+    "soporte_dual": "63 -> 62",
+    "clip_sombrero": "58 -> 57",
+    "soporte_silicona_mosqueton": "57 -> 56",
+    "bolso_magnetico": "43 -> 42",
+    "soporte_avion_generico": "46 -> 45",
+    "packing_cubes": "21 -> 20",
+    "g6": "27 -> 26",
+    "cable_correa": "33 -> 32",
+    "pov_mascota": "31 -> 30",
+    "cerradura_portatil": "33 -> 32",
+    "medidor_laser": "30 -> 29"
+  },
+  "rutas_locales": {
+    "nuevos_match_exactos": 0,
+    "nota": "Sin nuevo match exacto mayorista por fabricante/modelo/SKU/medidas/pack. Se preservan Rider Lab, PorMayor.App, Foxce/Acce Fhone, Grupo Importadora SMC, Makeway, Benavia, RASEC OUTDOORS, Elite Bike Shop, Mcdodo/Sunrise, Miccell y GM Accesorios Aventura con sus restricciones previas."
+  }
+}
