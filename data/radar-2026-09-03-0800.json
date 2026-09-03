@@ -1,0 +1,84 @@
+{
+  "updated_at": "2026-09-03T08:00:00-05:00",
+  "top_novedad": {
+    "name": "WEST BIKING 0702040",
+    "score": 78,
+    "signal": "Ventana",
+    "saturation_peru": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL verificado 2026-09-03 · MOQ 2; modelo 0702040; 6×5×1.3 cm",
+    "aliexpress": "EST. hasta checkout exacto",
+    "test_entry": "2u = US$17.48 producto + flete EST.",
+    "retail_peru": "EST.",
+    "potential_profit": "EST. hasta costo puesto real",
+    "route": "2–5u → validar costo puesto y conversión → escalar si conserva ventaja",
+    "strict_local_match": false
+  },
+  "updates": [
+    {
+      "name": "Riemot RM024",
+      "score": 75,
+      "signal": "Emergente",
+      "saturation_peru": "Baja–Media EST.",
+      "alibaba": "US$3.35/u REAL fuente previa · MOQ 2",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "2u = US$6.70 + flete EST.",
+      "retail_peru": "S/39–49 EST.",
+      "potential_profit": "EST. hasta costo puesto real",
+      "strict_local_match": false,
+      "fresh_signal": "Tienda oficial Riemot mantiene RM024 activo a US$16.99 retail internacional; no es precio Perú ni Alibaba."
+    },
+    {
+      "name": "Soporte dual viaje · bandeja de avión + asa de maleta",
+      "score": 63,
+      "previous_score": 64,
+      "signal": "Emergente",
+      "saturation_peru": "Baja–Media EST.",
+      "alibaba": "US$0.76–1.09/u REAL fuente previa · MOQ 5; no reconfirmado en esta pasada",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "5u = US$3.80–5.45 + flete EST.",
+      "retail_peru": "EST.",
+      "potential_profit": "EST.",
+      "strict_local_match": false,
+      "reason": "Baja 1 punto por envejecimiento de señal; comparables internacionales confirman que el concepto ya se está difundiendo."
+    },
+    {
+      "name": "Clip magnético porta-sombrero para viaje",
+      "score": 58,
+      "previous_score": 59,
+      "signal": "Tendencia",
+      "saturation_peru": "Media–Alta EST.",
+      "alibaba": "US$1.12–1.80/u REAL fuente previa · MOQ 20",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "20u = US$22.40–36.00 + flete EST.",
+      "retail_peru": "S/79 REAL comparable previo · NO match SKU",
+      "potential_profit": "EST. · no calcular sin costo puesto/match",
+      "strict_local_match": false,
+      "reason": "Baja 1 punto: categoría internacional madura; no apareció nueva evidencia de ventana temprana en Perú."
+    },
+    {
+      "name": "Bolso magnético compacto para gimnasio/viaje",
+      "score": 43,
+      "previous_score": 44,
+      "signal": "Tendencia / observar",
+      "saturation_peru": "EST. no confirmada",
+      "alibaba": "US$4.60–4.80/u REAL fuente previa · MOQ 50",
+      "aliexpress": "EST. hasta checkout exacto",
+      "test_entry": "50u = US$230–240 + flete EST.",
+      "retail_peru": "EST.",
+      "potential_profit": "EST.",
+      "route": "No priorizar: MOQ alto para V1; observar hasta hallar MOQ menor o ruta local exacta"
+    }
+  ],
+  "local_routes": [],
+  "notes": [
+    "No se encontró nuevo MATCH EXACTO local/mayorista para WEST BIKING 0702040, Riemot RM024 o soporte dual.",
+    "Todo precio, flete, saturación, retail o margen no confirmado permanece EST.",
+    "Matching local estricto preservado por fabricante/modelo/SKU/medidas/pack.",
+    "No se incorporó candidato nuevo: los productos explorados no tuvieron a la vez precio internacional verificable y evidencia suficiente de baja/media saturación en Perú."
+  ],
+  "sources": [
+    "https://www.alibaba.com/product-introduction/WEST-BIKING-Waterproof-Solar-Exercise-Bike_62383048906.html",
+    "https://germany.alibaba.com/product-detail/WEST-BIKING-4-Modes-Waterproof-Solar_62383048906.html",
+    "https://www.riemot.com/products/riemot-luggage-travel-cup-holder-perfect-gifts-for-frequent-travelersglitter-pink"
+  ]
+}
