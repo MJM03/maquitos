@@ -1,0 +1,38 @@
+{
+  "revision": "2026-09-04 18:00 America/Lima",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "score": 78,
+    "senal": "Ventana",
+    "saturacion_peru": "Baja–Media EST.",
+    "precio_alibaba": "US$8.74/u REAL fuente previa · MOQ 2",
+    "precio_aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia": "EST. hasta costo puesto real"
+  },
+  "cambios": [
+    {"producto":"Riemot RM024","score":74,"cambio":"sin cambio","saturacion_peru":"Baja–Media EST."},
+    {"producto":"Soporte dual avión + asa de maleta","score":59,"cambio":"60→59","senal":"Tendencia","saturacion_peru":"Media EST."},
+    {"producto":"Clip magnético porta-sombrero","score":54,"cambio":"56→54","senal":"Tendencia","saturacion_peru":"Media–Alta EST."},
+    {"producto":"Soporte silicona + mosquetón","score":54,"cambio":"55→54"},
+    {"producto":"Bolso magnético compacto","score":40,"cambio":"41→40"},
+    {"producto":"Soporte avión genérico","score":43,"cambio":"44→43"},
+    {"producto":"Packing cubes 7 piezas","score":18,"cambio":"19→18","senal":"Saturado"},
+    {"producto":"Mini cámara G6","score":24,"cambio":"25→24","senal":"Saturado"},
+    {"producto":"Cable-correa USB-C 60W","score":30,"cambio":"31→30"},
+    {"producto":"Cámara POV mascota","score":28,"cambio":"29→28"},
+    {"producto":"Cerradura portátil hotel/Airbnb","score":30,"cambio":"31→30"},
+    {"producto":"Mini medidor láser 40–60m","score":27,"cambio":"28→27"},
+    {"producto":"Mini selladora USB 2-en-1","score":22,"cambio":"23→22","senal":"Saturado"},
+    {"producto":"Organizador magnético de cables","score":25,"cambio":"26→25","senal":"Saturado"}
+  ],
+  "rutas_locales_nuevas": [],
+  "matching": "Estricto por fabricante/modelo/SKU/medidas/pack. Sin nuevo match exacto mayorista confirmado en Perú.",
+  "notas_fuentes": [
+    "La búsqueda peruana exacta no confirmó WEST BIKING 0702040 ni Riemot RM024.",
+    "Riemot RM024 mantiene difusión internacional verificable; eso no se convierte en saturación Perú real.",
+    "El clip magnético porta-sombrero mostró nueva difusión internacional, por lo que baja score sin inventar saturación local real.",
+    "Todo precio, flete, saturación o margen no reconfirmado permanece EST."
+  ]
+}
