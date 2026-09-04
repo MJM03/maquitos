@@ -1,0 +1,49 @@
+{
+  "revision": "2026-09-04T08:00:00-05:00",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "score": 78,
+    "senal": "Ventana",
+    "saturacion_peru": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa; MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia": "EST. hasta costo puesto real",
+    "ruta": "Probar 2–5u y escalar solo tras validar costo puesto y conversión"
+  },
+  "candidatos": [
+    {"producto":"Riemot RM024","score":74,"senal":"Emergente","saturacion_peru":"Baja–Media EST.","alibaba":"US$3.35/u REAL fuente previa; MOQ 2","aliexpress":"EST.","entrada_prueba":"2u = US$6.70 + flete EST.","retail_peru":"S/39–49 EST.","ganancia":"EST.","nota":"Modelo exacto sigue activo internacionalmente; mayor difusión regional, sin match exacto Perú confirmado."},
+    {"producto":"Soporte dual viaje bandeja avión + asa maleta","score":60,"senal":"Tendencia","saturacion_peru":"Media EST.","alibaba":"US$0.76–1.09/u REAL fuente previa; MOQ 5","aliexpress":"EST.","entrada_prueba":"5u = US$3.80–5.45 + flete EST.","retail_peru":"PEN 85 REAL comparable importado vía Ubuy; NO match SKU","ganancia":"EST.","nota":"La categoría ya tiene oferta dirigida a Perú vía importación y fuerte señal internacional; deja de considerarse ventana temprana."},
+    {"producto":"Clip magnético porta-sombrero","score":56,"senal":"Tendencia","saturacion_peru":"Media–Alta EST.","alibaba":"US$1.12–1.80/u REAL fuente previa; MOQ 20","aliexpress":"EST.","entrada_prueba":"20u = US$22.40–36.00 + flete EST.","retail_peru":"S/79 REAL comparable previo; NO match SKU","ganancia":"EST."},
+    {"producto":"Soporte silicona + mosquetón","score":55,"senal":"Emergente","saturacion_peru":"Baja–Media EST."},
+    {"producto":"Bolso magnético gimnasio/viaje","score":41,"senal":"Tendencia/observar","saturacion_peru":"EST.","alibaba":"US$4.60–4.80/u REAL fuente previa; MOQ 50","entrada_prueba":"US$230–240 + flete EST."}
+  ],
+  "descartados_revision": [
+    {"producto":"Mini selladora USB 2-en-1","score":23,"senal":"Saturado","motivo":"Perú ya tiene retail directo del mismo concepto sellar+cortar; Casaline comparable, NO match SKU."},
+    {"producto":"Organizador magnético de cables","score":26,"senal":"Saturado","motivo":"Perú ya vende Baseus ACWDJ-01 y genéricos; no es ventana temprana."}
+  ],
+  "cambios_score": {
+    "riemot_rm024": "75 -> 74",
+    "soporte_dual": "62 -> 60; Emergente -> Tendencia; Baja–Media EST. -> Media EST.",
+    "clip_sombrero": "57 -> 56",
+    "soporte_silicona_mosqueton": "56 -> 55",
+    "bolso_magnetico": "42 -> 41",
+    "soporte_avion_generico": "45 -> 44",
+    "packing_cubes": "20 -> 19",
+    "g6": "26 -> 25",
+    "cable_correa": "32 -> 31",
+    "pov_mascota": "30 -> 29",
+    "cerradura_portatil": "32 -> 31",
+    "medidor_laser": "29 -> 28"
+  },
+  "rutas_locales": {
+    "nuevos_match_exactos": 0,
+    "nota": "Sin nuevo match exacto mayorista por fabricante/modelo/SKU/medidas/pack. Se preservan las rutas locales previas. Ubuy Perú se registra solo como comparable/importación dirigida al mercado peruano para soporte de avión, no como mayorista local ni match SKU."
+  },
+  "fuentes_revision": [
+    "https://www.riemot.com/products/riemot-luggage-travel-cup-holder-perfect-gifts-for-frequent-travelersglitter-pink",
+    "https://www.ubuy.pe/en/product/30SI60G6-universal-airplane-in-flight-phone-mount-handsfree-phone-holder-for-desk-with-multi-directional-dual",
+    "https://simple.ripley.cl/soporte-celular-joyroom-jr-zs365-avion-viajes-para-bordes-con-prensa-mpm10001918352"
+  ]
+}
