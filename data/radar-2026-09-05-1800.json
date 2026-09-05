@@ -1,0 +1,40 @@
+{
+  "revision": "2026-09-05 18:00 America/Lima",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "score": 78,
+    "senal": "Ventana",
+    "saturacion_peru": "Baja–Media EST.",
+    "precio_alibaba": "US$8.74/u REAL fuente previa · MOQ 2",
+    "precio_aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia": "EST. hasta costo puesto real"
+  },
+  "cambios": [
+    {"producto":"Riemot RM024","score":72,"cambio":"73→72","senal":"Emergente","saturacion_peru":"Baja–Media EST."},
+    {"producto":"Soporte dual avión + asa de maleta","score":57,"cambio":"58→57","senal":"Tendencia","saturacion_peru":"Media EST."},
+    {"producto":"Clip magnético porta-sombrero","score":50,"cambio":"52→50","senal":"Tendencia","saturacion_peru":"Media–Alta EST."},
+    {"producto":"Soporte silicona + mosquetón","score":52,"cambio":"53→52"},
+    {"producto":"Bolso magnético compacto","score":38,"cambio":"39→38"},
+    {"producto":"Soporte avión genérico","score":41,"cambio":"42→41"},
+    {"producto":"Packing cubes 7 piezas","score":16,"cambio":"17→16","senal":"Saturado"},
+    {"producto":"Mini cámara G6","score":22,"cambio":"23→22","senal":"Saturado"},
+    {"producto":"Cable-correa USB-C 60W","score":28,"cambio":"29→28"},
+    {"producto":"Cámara POV mascota","score":26,"cambio":"27→26"},
+    {"producto":"Cerradura portátil hotel/Airbnb","score":28,"cambio":"29→28"},
+    {"producto":"Mini medidor láser 40–60m","score":25,"cambio":"26→25"},
+    {"producto":"Mini selladora USB 2-en-1","score":20,"cambio":"21→20","senal":"Saturado"},
+    {"producto":"Organizador magnético de cables","score":23,"cambio":"24→23","senal":"Saturado"}
+  ],
+  "rutas_locales_nuevas": [
+    {"nombre":"SpeedSong","tipo":"Distribuidor mayorista tecnológico","ubicacion":"Perú","match_exacto":"NO confirmado","url":"https://www.speedsong.pe/"}
+  ],
+  "matching": "Estricto por fabricante/modelo/SKU/medidas/pack. Sin nuevo match exacto mayorista confirmado en Perú.",
+  "notas_fuentes": [
+    "No se reconfirmaron en esta pasada precios Alibaba/AliExpress mediante listing exacto accesible para los líderes; se conservaron como REAL fuente previa cuando ya estaban documentados.",
+    "SpeedSong declara distribución mayorista tecnológica, stock y envíos a nivel nacional; se añadió solo como ruta de prospección.",
+    "Miccell sigue verificándose como mayorista peruano de accesorios tecnológicos, pero sin match exacto para los líderes revisados.",
+    "Todo precio, flete, saturación o margen no confirmado permanece EST."
+  ]
+}
