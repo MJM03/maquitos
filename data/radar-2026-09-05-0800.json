@@ -1,0 +1,40 @@
+{
+  "revision": "2026-09-05 08:00 America/Lima",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "score": 78,
+    "senal": "Ventana",
+    "saturacion_peru": "Baja–Media EST.",
+    "precio_alibaba": "US$8.74/u REAL reconfirmado · MOQ 2",
+    "precio_aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia": "EST. hasta costo puesto real"
+  },
+  "cambios": [
+    {"producto":"Riemot RM024","score":73,"cambio":"74→73","senal":"Emergente","saturacion_peru":"Baja–Media EST."},
+    {"producto":"Soporte dual avión + asa de maleta","score":58,"cambio":"59→58","senal":"Tendencia","saturacion_peru":"Media EST."},
+    {"producto":"Clip magnético porta-sombrero","score":52,"cambio":"54→52","senal":"Tendencia","saturacion_peru":"Media–Alta EST."},
+    {"producto":"Soporte silicona + mosquetón","score":53,"cambio":"54→53"},
+    {"producto":"Bolso magnético compacto","score":39,"cambio":"40→39"},
+    {"producto":"Soporte avión genérico","score":42,"cambio":"43→42"},
+    {"producto":"Packing cubes 7 piezas","score":17,"cambio":"18→17","senal":"Saturado"},
+    {"producto":"Mini cámara G6","score":23,"cambio":"24→23","senal":"Saturado"},
+    {"producto":"Cable-correa USB-C 60W","score":29,"cambio":"30→29"},
+    {"producto":"Cámara POV mascota","score":27,"cambio":"28→27"},
+    {"producto":"Cerradura portátil hotel/Airbnb","score":29,"cambio":"30→29"},
+    {"producto":"Mini medidor láser 40–60m","score":26,"cambio":"27→26"},
+    {"producto":"Mini selladora USB 2-en-1","score":21,"cambio":"22→21","senal":"Saturado"},
+    {"producto":"Organizador magnético de cables","score":24,"cambio":"25→24","senal":"Saturado"}
+  ],
+  "rutas_locales_nuevas": [
+    {"nombre":"Móviles Perú","tipo":"Mayorista celulares/accesorios","ubicacion":"Jr. Cuzco 686, Mesa Redonda, Lima","match_exacto":"NO confirmado","url":"https://movilesperu.pe/"}
+  ],
+  "matching": "Estricto por fabricante/modelo/SKU/medidas/pack. Sin nuevo match exacto mayorista confirmado en Perú.",
+  "notas_fuentes": [
+    "WEST BIKING 0702040 reconfirmado en Alibaba a US$8.74/u para 2–49 piezas; niveles 50–499 a US$7.62 y 500+ a US$7.31.",
+    "Riemot RM024 sigue activo a US$16.99 retail oficial internacional; la difusión internacional aumenta, sin convertirla en saturación Perú real.",
+    "Móviles Perú se añadió como ruta mayorista local de accesorios/movilidad, sin atribuir SKU líder.",
+    "Todo precio, flete, saturación o margen no confirmado permanece EST."
+  ]
+}
