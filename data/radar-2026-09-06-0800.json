@@ -1,0 +1,42 @@
+{
+  "revision": "2026-09-06 08:00 America/Lima",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "score": 78,
+    "senal": "Ventana",
+    "saturacion_peru": "Baja–Media EST.",
+    "precio_alibaba": "US$8.74/u REAL fuente previa · MOQ 2",
+    "precio_aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia": "EST. hasta costo puesto real"
+  },
+  "cambios": [
+    {"producto":"Riemot RM024","score":71,"cambio":"72→71","senal":"Emergente","saturacion_peru":"Baja–Media EST."},
+    {"producto":"Soporte dual avión + asa de maleta","score":56,"cambio":"57→56","senal":"Tendencia","saturacion_peru":"Media EST."},
+    {"producto":"Clip magnético porta-sombrero","score":48,"cambio":"50→48","senal":"Tendencia","saturacion_peru":"Media–Alta EST."},
+    {"producto":"Soporte silicona + mosquetón","score":51,"cambio":"52→51"},
+    {"producto":"Bolso magnético compacto","score":37,"cambio":"38→37"},
+    {"producto":"Soporte avión genérico","score":40,"cambio":"41→40"},
+    {"producto":"Packing cubes 7 piezas","score":15,"cambio":"16→15","senal":"Saturado"},
+    {"producto":"Mini cámara G6","score":21,"cambio":"22→21","senal":"Saturado"},
+    {"producto":"Cable-correa USB-C 60W","score":27,"cambio":"28→27"},
+    {"producto":"Cámara POV mascota","score":25,"cambio":"26→25"},
+    {"producto":"Cerradura portátil hotel/Airbnb","score":27,"cambio":"28→27"},
+    {"producto":"Mini medidor láser 40–60m","score":24,"cambio":"25→24"},
+    {"producto":"Mini selladora USB 2-en-1","score":19,"cambio":"20→19","senal":"Saturado"},
+    {"producto":"Organizador magnético de cables","score":22,"cambio":"23→22","senal":"Saturado"}
+  ],
+  "rutas_locales_nuevas": [
+    {"nombre":"PialTech","tipo":"Importador/mayorista accesorios tecnológicos","ubicacion":"Lima, Perú","match_exacto":"NO confirmado"},
+    {"nombre":"Yeison EagleTech","tipo":"Accesorios tecnológicos; mayorista desde la unidad","ubicacion":"Lima/Perú","match_exacto":"NO confirmado","url":"https://www.yeison.net.pe/"}
+  ],
+  "matching": "Estricto por fabricante/modelo/SKU/medidas/pack. Sin nuevo match exacto mayorista confirmado en Perú.",
+  "notas_fuentes": [
+    "No se reconfirmaron precios exactos de Alibaba/AliExpress para los líderes en esta pasada; los importes previos permanecen etiquetados como REAL fuente previa y todo dato no confirmado permanece EST.",
+    "PialTech muestra actividad mayorista reciente en accesorios tecnológicos en Lima; se añadió solo como ruta de prospección.",
+    "Yeison EagleTech ofrece accesorios tecnológicos y declara precio mayorista desde la unidad; se añadió solo como ruta de prospección.",
+    "La difusión internacional del clip magnético porta-sombrero continúa creciendo, por lo que baja su score y conserva saturación Media–Alta EST.",
+    "Todo precio, flete, saturación o margen no confirmado permanece EST."
+  ]
+}
