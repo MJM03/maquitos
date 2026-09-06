@@ -1,0 +1,39 @@
+{
+  "revision": "2026-09-06 18:00 America/Lima",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "score": 78,
+    "senal": "Ventana",
+    "saturacion_peru": "Baja–Media EST.",
+    "precio_alibaba": "US$8.74/u REAL fuente previa · MOQ 2",
+    "precio_aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia": "EST. hasta costo puesto real"
+  },
+  "cambios": [
+    {"producto":"Riemot RM024","score":70,"cambio":"71→70","senal":"Emergente","saturacion_peru":"Baja–Media EST."},
+    {"producto":"Soporte dual avión + asa de maleta","score":55,"cambio":"56→55","senal":"Tendencia","saturacion_peru":"Media EST."},
+    {"producto":"Clip magnético porta-sombrero","score":47,"cambio":"48→47","senal":"Tendencia","saturacion_peru":"Media–Alta EST."},
+    {"producto":"Soporte silicona + mosquetón","score":50,"cambio":"51→50"},
+    {"producto":"Bolso magnético compacto","score":36,"cambio":"37→36"},
+    {"producto":"Soporte avión genérico","score":39,"cambio":"40→39"},
+    {"producto":"Packing cubes 7 piezas","score":14,"cambio":"15→14","senal":"Saturado"},
+    {"producto":"Mini cámara G6","score":20,"cambio":"21→20","senal":"Saturado"},
+    {"producto":"Cable-correa USB-C 60W","score":26,"cambio":"27→26"},
+    {"producto":"Cámara POV mascota","score":24,"cambio":"25→24"},
+    {"producto":"Cerradura portátil hotel/Airbnb","score":26,"cambio":"27→26"},
+    {"producto":"Mini medidor láser 40–60m","score":23,"cambio":"24→23"},
+    {"producto":"Mini selladora USB 2-en-1","score":18,"cambio":"19→18","senal":"Saturado"},
+    {"producto":"Organizador magnético de cables","score":21,"cambio":"22→21","senal":"Saturado"}
+  ],
+  "rutas_locales_nuevas": [
+    {"nombre":"J.C.S IMPORT","tipo":"Importadora y distribuidora mayorista","ubicacion":"Cercado de Lima, Perú","match_exacto":"NO confirmado"}
+  ],
+  "matching": "Estricto por fabricante/modelo/SKU/medidas/pack. Sin nuevo match exacto mayorista confirmado en Perú.",
+  "notas_fuentes": [
+    "Precios exactos de líderes no reconfirmados en esta pasada permanecen como REAL fuente previa o EST según corresponda.",
+    "J.C.S IMPORT se añade solo como ruta de prospección; no se atribuye ningún SKU líder.",
+    "Todo precio, flete, saturación, retail o margen no confirmado permanece EST."
+  ]
+}
