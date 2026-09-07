@@ -1,0 +1,34 @@
+{
+  "revision": "2026-09-07T18:00:00-05:00",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "senal": "Ventana",
+    "score": 78,
+    "saturacion_peru": "Baja-Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa; MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 producto + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia_potencial": "EST. hasta costo puesto real",
+    "ruta": "Probar 2-5u y escalar solo tras validar costo puesto y conversion"
+  },
+  "cambios": [
+    {"producto":"Riemot RM024","score_anterior":69,"score_nuevo":68,"senal":"Emergente","saturacion_peru":"Baja-Media EST."},
+    {"producto":"Soporte dual viaje avion + maleta","score_anterior":54,"score_nuevo":53,"senal":"Tendencia","saturacion_peru":"Media EST."},
+    {"producto":"Clip magnetico porta-sombrero","score_anterior":46,"score_nuevo":45,"senal":"Tendencia","saturacion_peru":"Media-Alta EST."},
+    {"producto":"Soporte silicona + mosqueton","score_anterior":49,"score_nuevo":48,"senal":"Emergente","saturacion_peru":"Baja-Media EST."},
+    {"producto":"Bolso magnetico compacto gimnasio/viaje","score_anterior":34,"score_nuevo":33,"senal":"Tendencia / observar","saturacion_peru":"Media EST."},
+    {"producto":"S&T HS219N-DKGY soporte magnetico lateral laptop","score_anterior":null,"score_nuevo":18,"senal":"Saturado","saturacion_peru":"Alta / match exacto local","nota":"Descartado: mismo modelo/SKU confirmado en EFE, La Curacao, Falabella, Ripley y Mercado Libre Peru."}
+  ],
+  "nuevas_rutas_locales": [],
+  "matching_estricto": "fabricante + modelo/SKU + medidas + pack",
+  "resultado_matching": "Sin nuevo MATCH EXACTO mayorista para WEST BIKING 0702040, Riemot RM024 o soporte dual. Nuevo match exacto retail confirmado para HS219N-DKGY, por lo que se descarta como novedad.",
+  "fuentes_frescas": [
+    "https://www.efe.com.pe/sop-st-celular-hs219n-dark-grey-hs219n-dkgy.html",
+    "https://www.lacuracao.pe/sop-st-celular-hs219n-dark-grey-hs219n-dkgy.html",
+    "https://simple.ripley.com.pe/soporte-st-syt-holder-celular-laptop-corporativos-for-business-aluminio-hs219n-dark-grey-pmp00003094837",
+    "https://www.falabella.com.pe/falabella-pe/product/143212240/Soporte-de-Celular-Corporativos-for-Business-de-Aluminio-HS219N-Grey/143212241",
+    "https://www.alibaba.com/wholesale/magnetic-holder-laptop.html"
+  ],
+  "regla_datos": "Todo precio, flete, saturacion, retail o margen no confirmado permanece EST."
+}
