@@ -1,0 +1,36 @@
+{
+  "revision": "2026-09-07T08:00:00-05:00",
+  "top_novedad": {
+    "producto": "WEST BIKING 0702040",
+    "senal": "Ventana",
+    "score": 78,
+    "saturacion_peru": "Baja-Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa; MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "entrada_prueba": "2u = US$17.48 producto + flete EST.",
+    "retail_peru": "EST.",
+    "ganancia_potencial": "EST. hasta costo puesto real",
+    "ruta": "Probar 2-5u y escalar solo tras validar costo puesto y conversión"
+  },
+  "cambios": [
+    {"producto":"Riemot RM024","score_anterior":70,"score_nuevo":69,"senal":"Emergente","saturacion_peru":"Baja-Media EST."},
+    {"producto":"Soporte dual viaje avion + maleta","score_anterior":55,"score_nuevo":54,"senal":"Tendencia","saturacion_peru":"Media EST."},
+    {"producto":"Clip magnetico porta-sombrero","score_anterior":47,"score_nuevo":46,"senal":"Tendencia","saturacion_peru":"Media-Alta EST."},
+    {"producto":"Soporte silicona + mosqueton","score_anterior":50,"score_nuevo":49,"senal":"Emergente","saturacion_peru":"Baja-Media EST."},
+    {"producto":"Bolso magnetico compacto gimnasio/viaje","score_anterior":36,"score_nuevo":34,"senal":"Tendencia / observar","saturacion_peru":"Media EST.","nota":"Difusion internacional creciente; Alibaba comparable actual US$10.50-13.50, MOQ 100; no es el mismo SKU previo."}
+  ],
+  "nuevas_rutas_locales": [
+    {"nombre":"Atila","tipo":"Marketplace/importacion directa China-Peru","condicion":"Desde 1 unidad","match_exacto":"NO confirmado","url":"https://atila.com.pe/"},
+    {"nombre":"Easy Store Peru","tipo":"Distribuidora local de importados","condicion":"Desde 1 unidad","match_exacto":"NO confirmado","url":"https://deasy-store.com/"}
+  ],
+  "matching_estricto": "fabricante + modelo/SKU + medidas + pack",
+  "resultado_matching": "Sin nuevo MATCH EXACTO mayorista para WEST BIKING 0702040, Riemot RM024 o soporte dual.",
+  "fuentes_frescas": [
+    "https://atila.com.pe/",
+    "https://deasy-store.com/",
+    "https://www.alibaba.com/pla/Custom-logo-Magnetic-Gym-Bag-with_1601631696183.html",
+    "https://www.pormayor.app/",
+    "https://www.miccell.com.pe/"
+  ],
+  "regla_datos": "Todo precio, flete, saturacion, retail o margen no confirmado permanece EST."
+}
