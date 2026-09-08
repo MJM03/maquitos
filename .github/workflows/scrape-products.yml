@@ -3,7 +3,7 @@ name: Maquitos Product Radar
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 11 * * *'
+    - cron: '0 13,23 * * *'
 
 permissions:
   contents: write
