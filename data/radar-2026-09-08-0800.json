@@ -1,0 +1,42 @@
+{
+  "reviewed_at": "2026-09-08T08:00:00-05:00",
+  "scope": "Radar Novedad",
+  "policy": {
+    "preserve_modules": ["Local Lab", "China Lab", "Visor", "Costos", "Ruta", "Fuentes"],
+    "strict_local_matching": "fabricante + modelo/SKU + medidas + pack",
+    "unconfirmed_label": "EST."
+  },
+  "top_novedad": {
+    "product": "WEST BIKING 0702040",
+    "signal": "Ventana",
+    "score": 78,
+    "saturation_peru": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa · MOQ 2",
+    "aliexpress": "EST. hasta checkout exacto",
+    "trial_entry": "2u = US$17.48 producto + flete EST.",
+    "retail_peru": "EST.",
+    "potential_profit": "EST. hasta costo puesto real",
+    "suggested_route": "2–5u → validar costo puesto/conversión → escalar solo con ventaja",
+    "links": {
+      "alibaba": "https://www.alibaba.com/product-introduction/WEST-BIKING-Waterproof-Solar-Exercise-Bike_62383048906.html",
+      "aliexpress": "https://www.aliexpress.com/wholesale?SearchText=WEST+BIKING+0702040",
+      "peru": "https://listado.mercadolibre.com.pe/ciclocomputador-solar"
+    }
+  },
+  "changes": [
+    {"product":"Riemot RM024","score":"68","signal":"Emergente","saturation_peru":"Baja–Media EST.","note":"Sin match local exacto confirmado."},
+    {"product":"Soporte dual viaje · bandeja de avión + asa de maleta","score":"53","signal":"Tendencia","saturation_peru":"Media EST.","note":"Sigue sin match local estricto; concepto más maduro."},
+    {"product":"Clip magnético porta-sombrero","score":"45","signal":"Tendencia","saturation_peru":"Media–Alta EST.","note":"Pierde novedad por difusión internacional."},
+    {"product":"Soporte plegable silicona + mosquetón","score":"48","signal":"Emergente","saturation_peru":"Baja–Media EST.","note":"Sin validación local exacta nueva."},
+    {"product":"Soporte magnético lateral laptop S&T HS219N-DKGY","score":"18","signal":"Saturado","saturation_peru":"Alta REAL por match exacto local","note":"Match exacto en Perú; usar solo como benchmark."}
+  ],
+  "local_routes": [
+    {"name":"GM Accesorios Aventura","type":"Ruta local de accesorios de viaje","status":"Prospección · MATCH exacto NO confirmado","link":"https://accesoriosaventura.com/categoria-producto/ofertas/"},
+    {"name":"S&T Store / Sodimac","type":"Retail local para benchmark HS219N","status":"MATCH exacto HS219N confirmado; no es mayorista de líderes","link":"https://www.sodimac.com.pe/sodimac-pe/articulo/143212242/Soporte-Holder-de-Celular-P-Laptop-for-Business-Aluminio-HS219N-Silver/143212243"}
+  ],
+  "summary": {
+    "new_exact_local_wholesaler_match": false,
+    "saturation_changes": "No se convirtió ninguna estimación en REAL sin evidencia; HS219N permanece Saturado por match exacto local.",
+    "new_routes_found": "GM Accesorios Aventura queda como ruta de prospección; S&T/Sodimac como benchmark exacto HS219N."
+  }
+}
