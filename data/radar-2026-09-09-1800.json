@@ -1,0 +1,22 @@
+{
+  "revision": "2026-09-09 18:00 America/Lima",
+  "top_novedad": {"producto":"WEST BIKING 0702040","score":76,"senal":"Ventana","saturacion_peru":"Baja–Media EST."},
+  "items":[
+    {"producto":"WEST BIKING 0702040","score":76,"senal":"Ventana","saturacion_peru":"Baja–Media EST.","alibaba":"US$8.74/u REAL fuente previa; MOQ 2","aliexpress":"EST.","entrada_lote_prueba":"2u = US$17.48 + flete EST.","retail_peru":"EST.","ganancia":"EST.","match_local":"NO confirmado"},
+    {"producto":"Riemot RM024","score":66,"senal":"Emergente","saturacion_peru":"Baja–Media EST.","alibaba":"US$3.35/u REAL fuente previa; MOQ 2","aliexpress":"EST.","entrada_lote_prueba":"2u = US$6.70 + flete EST.","retail_peru":"EST.","ganancia":"EST.","match_local":"NO confirmado"},
+    {"producto":"Soporte dual viaje avión + asa maleta","score":51,"senal":"Tendencia","saturacion_peru":"Media EST.","alibaba":"US$0.76–1.09/u REAL fuente previa; MOQ 5","aliexpress":"EST.","entrada_lote_prueba":"5u = US$3.80–5.45 + flete EST.","retail_peru":"S/85 comparable REAL previo; no match SKU","ganancia":"EST.","match_local":"NO confirmado"},
+    {"producto":"Clip magnético porta-sombrero","score":43,"senal":"Tendencia","saturacion_peru":"Media–Alta EST.","alibaba":"EST.","aliexpress":"EST.","entrada_lote_prueba":"EST.","retail_peru":"EST.","ganancia":"EST.","match_local":"NO confirmado"},
+    {"producto":"Soporte silicona + mosquetón","score":46,"senal":"Emergente","saturacion_peru":"Baja–Media EST.","alibaba":"EST.","aliexpress":"EST.","entrada_lote_prueba":"EST.","retail_peru":"EST.","ganancia":"EST.","match_local":"NO confirmado"},
+    {"producto":"S&T HS219N-DKGY","score":18,"senal":"Saturado","saturacion_peru":"Alta REAL por match local previo","match_local":"CONFIRMADO previo","uso":"benchmark"}
+  ],
+  "nuevas_rutas_locales":[
+    "Accesorios tecnológicos - Tienda 2, Jr. Andahuaylas 1024, Lima — prospección; match exacto NO confirmado",
+    "Importaciones Super, Av. Abancay 752, Lima — prospección; match exacto NO confirmado",
+    "Loginstore, Ca. Raúl Rebagliati 170, La Victoria — prospección; match exacto NO confirmado"
+  ],
+  "fuentes_web": [
+    "https://no.pricearchive.org/aliexpress.com/item/1005012769839527",
+    "https://ms.pricearchive.org/aliexpress.com/item/1005012730022385"
+  ],
+  "regla": "No convertir EST. a REAL sin evidencia; matching estricto fabricante + modelo/SKU + medidas + pack."
+}
