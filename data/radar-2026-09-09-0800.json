@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-09-09T08:00:00-05:00",
+  "timezone": "America/Lima",
+  "matching": "strict: fabricante + modelo/SKU + medidas + pack",
+  "top_novedad": {
+    "product": "WEST BIKING 0702040",
+    "signal": "Ventana",
+    "score": 77,
+    "saturation_peru": "Baja–Media EST.",
+    "alibaba": "US$8.74/u REAL fuente previa; MOQ 2",
+    "aliexpress": "EST.",
+    "test_batch": "2u = US$17.48 + flete EST.",
+    "retail_peru": "EST.",
+    "profit": "EST.",
+    "route": "2–5u → validar costo puesto/conversión → escalar"
+  },
+  "changes": [
+    {"product":"WEST BIKING 0702040","score":"78→77","signal":"Ventana","saturation":"Baja–Media EST."},
+    {"product":"Riemot RM024","score":"68→67","signal":"Emergente","saturation":"Baja–Media EST."},
+    {"product":"Soporte dual viaje","score":"53→52","signal":"Tendencia","saturation":"Media EST."},
+    {"product":"Clip magnético porta-sombrero","score":"45→44","signal":"Tendencia","saturation":"Media–Alta EST."},
+    {"product":"Soporte silicona + mosquetón","score":"48→47","signal":"Emergente","saturation":"Baja–Media EST."},
+    {"product":"Bolso magnético compacto","score":"33→32","signal":"Tendencia / observar","saturation":"Media EST."},
+    {"product":"Smart luggage tag / tracker genérico","score":"nuevo 31","signal":"Observación","saturation":"Media–Alta EST."}
+  ],
+  "local_routes": [
+    {"name":"Ruta Mayorista Online","type":"directorio mayorista Lima","match":"NO confirmado","url":"https://rutamayoristaonline.com/"},
+    {"name":"Grupo Ceta","type":"mayorista bolsos/mochilas","match":"NO confirmado","url":"https://grupoceta.pe/"},
+    {"name":"PialTech","type":"mayorista accesorios tecnológicos","match":"NO confirmado","url":"https://www.globuya.com/PE/Lima/105086434268453/PialTech"}
+  ],
+  "exact_local_match_found": false,
+  "notes": [
+    "No se convirtió ningún precio, flete, saturación o margen no confirmado en REAL.",
+    "S&T HS219N-DKGY permanece Saturado y solo como benchmark local exacto previo.",
+    "Módulos preservados: Local Lab, China Lab, Visor, Costos, Ruta y Fuentes."
+  ],
+  "sources": [
+    "Alibaba trolley bag accessories / tags and trackers current category",
+    "Ruta Mayorista Online",
+    "PialTech",
+    "Grupo Ceta"
+  ]
+}
