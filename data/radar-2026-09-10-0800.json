@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-09-10T08:00:00-05:00",
+  "top_novedad": {"name":"WEST BIKING 0702040","signal":"Ventana","score":75,"saturation_peru":"Baja–Media EST."},
+  "items": [
+    {"name":"WEST BIKING 0702040","signal":"Ventana","score":75,"saturation_peru":"Baja–Media EST.","alibaba":"US$8.74/u REAL fuente previa","aliexpress":"EST.","trial_entry":"2u = US$17.48 + flete EST.","retail_peru":"EST.","potential_gain":"EST.","strict_match_local":false},
+    {"name":"Riemot RM024","signal":"Emergente","score":65,"saturation_peru":"Baja–Media EST.","alibaba":"US$3.35/u REAL fuente previa","aliexpress":"EST.","trial_entry":"2u = US$6.70 + flete EST.","retail_peru":"EST.","potential_gain":"EST.","strict_match_local":false},
+    {"name":"Soporte dual viaje","signal":"Tendencia","score":50,"saturation_peru":"Media EST.","alibaba":"US$0.76–1.09/u REAL fuente previa","aliexpress":"EST.","trial_entry":"5u = US$3.80–5.45 + flete EST.","retail_peru":"S/85 comparable REAL previo; no SKU exacto","potential_gain":"EST.","strict_match_local":false},
+    {"name":"Clip magnético porta-sombrero","signal":"Tendencia","score":42,"saturation_peru":"Media–Alta EST.","alibaba":"EST.","aliexpress":"EST.","trial_entry":"EST.","retail_peru":"EST.","potential_gain":"EST.","strict_match_local":false},
+    {"name":"Soporte silicona + mosquetón","signal":"Emergente","score":45,"saturation_peru":"Baja–Media EST.","alibaba":"EST.","aliexpress":"EST.","trial_entry":"EST.","retail_peru":"EST.","potential_gain":"EST.","strict_match_local":false},
+    {"name":"Bolso magnético compacto","signal":"Tendencia / observar","score":30,"saturation_peru":"Media EST.","alibaba":"US$10.50–13.50, MOQ 100 REAL fuente previa; comparable","aliexpress":"EST.","trial_entry":"MOQ 100 + flete EST.","retail_peru":"EST.","potential_gain":"EST.","strict_match_local":false},
+    {"name":"Smart luggage tag / tracker genérico","signal":"Observación","score":29,"saturation_peru":"Media–Alta EST.","alibaba":"EST.","aliexpress":"Activo comparable; precio EST.","trial_entry":"EST.","retail_peru":"EST.","potential_gain":"EST.","strict_match_local":false},
+    {"name":"S&T HS219N-DKGY","signal":"Saturado","score":18,"saturation_peru":"Alta REAL por match exacto local previo","strict_match_local":true}
+  ],
+  "new_local_routes": [
+    {"name":"Importaciones Radell","address":"Jr. Áncash 732, Lima 15086, Perú","role":"prospect maletas/mochilas; exact match no confirmado"},
+    {"name":"CATPRICHOS IMPORTADORA","address":"Jirón Bernardo O'Higgins 880, Pueblo Libre 15084, Perú","role":"prospect accesorios de moda; exact match no confirmado"},
+    {"name":"PROSHOPPER PERU S.A.C.","address":"Av. Iquitos 1238, La Victoria 15033, Perú","role":"prospect hogar; exact match no confirmado"},
+    {"name":"INTECGLOBALPERU","address":"Jr. los Brillantes 550, La Victoria 15034, Perú","role":"prospect informática; exact match no confirmado"}
+  ],
+  "strict_match_rule":"fabricante + modelo/SKU + medidas + pack",
+  "notes":"Precios, fletes, saturación y márgenes no confirmados permanecen EST.; no se atribuyen matches locales sin evidencia estricta."
+}
