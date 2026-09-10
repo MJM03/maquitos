@@ -1,0 +1,11 @@
+{
+  "reviewed_at": "2026-09-10T18:00:00-05:00",
+  "top_novedad": "WEST BIKING 0702040",
+  "top_score": 74,
+  "top_signal": "Ventana",
+  "top_saturation_peru": "Baja–Media EST.",
+  "exact_local_matches_new": [],
+  "local_routes_new": ["Westor Mayorista", "EXPO DIMERC / Dimerc Perú", "Grupo Ceta", "Ruta Mayorista Online"],
+  "schedule": "0 13,23 * * * UTC",
+  "notes": "No convertir EST. en REAL. Matching estricto por fabricante, modelo/SKU, medidas y pack. S&T HS219N-DKGY permanece Saturado como benchmark."
+}
