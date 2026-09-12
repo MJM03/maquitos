@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-09-12T08:00:00-05:00",
+  "timezone": "America/Lima",
+  "matching": "strict: manufacturer + model/SKU + dimensions + pack",
+  "preserved_modules": ["Local Lab", "China Lab", "Visor", "Costos", "Ruta", "Fuentes"],
+  "items": [
+    {"name":"WEST BIKING 0702040","signal":"Ventana","score":74,"peru_saturation":"Baja–Media EST.","aliexpress_price":"EST.","alibaba_price":"US$8.74/u REAL fuente previa","test_lot":"2u = US$17.48 + flete EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false},
+    {"name":"Riemot RM024","signal":"Emergente","score":64,"peru_saturation":"Baja–Media EST.","aliexpress_price":"EST.","alibaba_price":"US$3.35/u REAL fuente previa","test_lot":"2u + flete EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false},
+    {"name":"Soporte dual viaje avión + asa de maleta","signal":"Tendencia","score":49,"peru_saturation":"Media EST.","aliexpress_price":"EST.","alibaba_price":"US$0.76–1.09/u REAL fuente previa","test_lot":"Lote corto + flete EST.","retail_peru":"S/85 REAL previo comparable; NO match SKU","potential_profit":"EST.","local_exact_match":false},
+    {"name":"Clip magnético porta-sombrero","signal":"Tendencia","score":40,"peru_saturation":"Media–Alta EST.","aliexpress_price":"EST.","alibaba_price":"EST.","test_lot":"EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false},
+    {"name":"Soporte plegable silicona + mosquetón","signal":"Emergente","score":44,"peru_saturation":"Baja–Media EST.","aliexpress_price":"EST.","alibaba_price":"EST.","test_lot":"EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false}
+  ],
+  "saturated_benchmarks": [{"name":"S&T HS219N-DKGY","signal":"Saturado","score":18,"reason":"match exacto local previo"}],
+  "new_local_routes": [
+    {"name":"Pedalshop","evidence":"accesorios de bicicleta; La Molina","url":"https://pedalshop.com.pe/","exact_match":false},
+    {"name":"NeoRyders","evidence":"accesorios para bicicleta y scooter; Surco","url":"https://neoryders.com/","exact_match":false},
+    {"name":"Bike Sprint","evidence":"importador con venta mayorista; Jesús María","url":"https://bikesprint.pe/","exact_match":false}
+  ],
+  "sources": ["turn125558search0","turn125558search2","turn125558search4","turn125558search1","turn125558search5"],
+  "notes": "Precios, fletes, retail, saturación y margen no confirmados permanecen EST."
+}
