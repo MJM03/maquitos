@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-09-12T18:00:00-05:00",
+  "timezone": "America/Lima",
+  "matching": "strict: manufacturer + model/SKU + dimensions + pack",
+  "preserved_modules": ["Local Lab", "China Lab", "Visor", "Costos", "Ruta", "Fuentes"],
+  "items": [
+    {"name":"WEST BIKING 0702040","signal":"Ventana","score":73,"peru_saturation":"Baja–Media EST.","aliexpress_price":"EST.","alibaba_price":"US$8.74/u REAL fuente previa","test_lot":"2u = US$17.48 + flete EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false,"route":"2u→video demostrativo→validar en ciclistas→escalar"},
+    {"name":"Riemot RM024","signal":"Emergente","score":63,"peru_saturation":"Baja–Media EST.","aliexpress_price":"EST.","alibaba_price":"US$3.35/u REAL fuente previa","test_lot":"2u + flete EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false,"route":"2u→validar encaje→escalar"},
+    {"name":"Soporte dual viaje avión + asa de maleta","signal":"Tendencia","score":48,"peru_saturation":"Media EST.","aliexpress_price":"EST.","alibaba_price":"US$0.76–1.09/u REAL fuente previa","test_lot":"Lote corto + flete EST.","retail_peru":"S/85 REAL previo comparable; NO match SKU","potential_profit":"EST.","local_exact_match":false,"route":"lote corto→video→validar demanda"},
+    {"name":"Clip magnético porta-sombrero","signal":"Tendencia","score":39,"peru_saturation":"Media–Alta EST.","aliexpress_price":"EST.","alibaba_price":"EST.","test_lot":"EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false,"route":"solo prueba orgánica; no importar aún"},
+    {"name":"Soporte plegable silicona + mosquetón","signal":"Emergente","score":43,"peru_saturation":"Baja–Media EST.","aliexpress_price":"EST.","alibaba_price":"EST.","test_lot":"EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false,"route":"validación local con comparable→micro lote"},
+    {"name":"Bolso magnético compacto","signal":"Tendencia/observar","score":27,"peru_saturation":"Media EST.","aliexpress_price":"EST.","alibaba_price":"US$10.50–13.50 comparable REAL fuente previa","test_lot":"MOQ 100 + flete EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false,"route":"no priorizar hasta bajar MOQ"},
+    {"name":"Smart luggage tag / tracker genérico","signal":"Observación","score":26,"peru_saturation":"Media–Alta EST.","aliexpress_price":"EST.","alibaba_price":"EST.","test_lot":"EST.","retail_peru":"EST.","potential_profit":"EST.","local_exact_match":false,"route":"no priorizar por compatibilidad/batería"}
+  ],
+  "saturated_benchmarks": [{"name":"S&T HS219N-DKGY","signal":"Saturado","score":18,"reason":"match exacto local previo"}],
+  "new_local_routes": [
+    {"name":"Biker Import","evidence":"accesorios generales; venta por mayor; Av. La Marina 731, Pueblo Libre","url":"https://bikerimport.pe/accesorios-general/","exact_match":false},
+    {"name":"Easy Store Perú","evidence":"distribuidora mayorista de importados; compra desde 1 unidad; Ancón","url":"https://deasy-store.com/","exact_match":false},
+    {"name":"Emporio de mochilas Amazonas","evidence":"mayorista de mochilas/maletas; Jr. Amazonas 299, Cercado de Lima","url":"https://www.findglocal.com/PE/Lima/105994520822049/Emporio-de-mochilas-Amazonas","exact_match":false}
+  ],
+  "sources": ["turn948878search0","turn948878search2","turn948878search3","turn948878search4","turn948878search6","turn948878search7"],
+  "notes": "Precios, fletes, retail, saturación y margen no confirmados permanecen EST. No hubo nuevo matching exacto local para los líderes."
+}
