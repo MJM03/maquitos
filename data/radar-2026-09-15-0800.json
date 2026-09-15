@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-09-15T08:00:00-05:00",
+  "top": {"name":"WEST BIKING 0702040","signal":"Ventana","score":68,"peru_saturation":"Baja–Media EST.","alibaba":"US$8.74/u REAL fuente previa","aliexpress":"EST.","trial_batch":"2u = US$17.48 + flete EST.","retail_peru":"EST.","potential_profit":"EST.","exact_local_match":false},
+  "items":[
+    {"name":"Riemot RM024","signal":"Emergente","score":58,"peru_saturation":"Baja–Media EST.","alibaba":"US$3.35/u REAL fuente previa","aliexpress":"EST.","trial_batch":"2u + flete EST.","retail_peru":"EST.","potential_profit":"EST."},
+    {"name":"Soporte dual viaje avión + asa de maleta","signal":"Tendencia","score":43,"peru_saturation":"Media EST.","alibaba":"US$0.76–1.09/u REAL fuente previa","aliexpress":"EST.","trial_batch":"lote corto + flete EST.","retail_peru":"S/85 REAL previo comparable, NO match","potential_profit":"EST."},
+    {"name":"Clip magnético porta-sombrero","signal":"Tendencia","score":34,"peru_saturation":"Media–Alta EST.","alibaba":"EST.","aliexpress":"EST.","trial_batch":"EST.","retail_peru":"EST.","potential_profit":"EST."},
+    {"name":"Soporte plegable silicona + mosquetón","signal":"Emergente","score":38,"peru_saturation":"Baja–Media EST.","alibaba":"EST.","aliexpress":"EST.","trial_batch":"EST.","retail_peru":"EST.","potential_profit":"EST."},
+    {"name":"Bolso magnético compacto","signal":"Tendencia/observar","score":22,"peru_saturation":"Media EST.","alibaba":"US$10.50–13.50 REAL previo comparable","aliexpress":"EST.","trial_batch":"MOQ 100 EST.","retail_peru":"EST.","potential_profit":"EST."},
+    {"name":"Smart luggage tag / tracker genérico","signal":"Observación","score":21,"peru_saturation":"Media–Alta EST.","alibaba":"EST.","aliexpress":"EST.","trial_batch":"EST.","retail_peru":"EST.","potential_profit":"EST."},
+    {"name":"S&T HS219N-DKGY","signal":"Saturado","score":18,"peru_saturation":"Alta REAL previa","alibaba":"—","aliexpress":"—","trial_batch":"No priorizar","retail_peru":"Match exacto local previo","potential_profit":"No priorizar"}
+  ],
+  "local_routes_new":["PorMayor.App","J.C.S IMPORT","Yeison EagleTech"],
+  "local_exact_matches_new":[],
+  "sources":["https://as.com/showroom/ofertas/cinta-de-correr-plegable-rebajas-de-otono-aliexpress-f202609-f/","https://www.pormayor.app/","https://www.jcslac.com/","https://www.yeison.net.pe/","https://pedalshop.com.pe/","https://westormayorista.pe/"],
+  "notes":"Toda cifra no confirmada permanece EST.; matching estricto por fabricante + modelo/SKU + medidas + pack."
+}
